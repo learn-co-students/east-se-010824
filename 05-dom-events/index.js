@@ -1,7 +1,7 @@
 // ✅ Understand Static vs. Dynamic Web Applications
 
   // Static => Fixed, display the same content for each user
-  // Dynamic => Display different content for each user, allow for user interation
+  // Dynamic => Display different content for each user, allow for user interaction
 
 // ✅ Handling Click and Submit Events
      
@@ -13,6 +13,42 @@
       // addEventListener("click", () => console.log("Test"));
         // vs. 
       // addEventListener("click", doSomething);
+
+	// document.addEventListener('DOMContentLoaded', () => {
+	// 	console.log('dom loaded')
+	// 	listenerForHeaderClick()
+	// })
+
+	  function handleHeaderClick() {
+		console.log('clicked')
+	  }
+
+	function listenerForHeaderClick() {
+		const header = document.querySelector('#header')
+		const h1 = header.firstChild.nextSibling
+		h1.addEventListener('click', handleHeaderClick)
+	}
+
+	  
+	  
+	function listenForFormSubmit() {
+		const form = document.getElementById("poke-form")
+		form.addEventListener('submit', (event) => {
+			event.preventDefault()
+			// grab inputs from the form by name or id
+			console.log(event.target['name-input'].value)
+			console.log(event.target.image.value)
+
+			event.target.reset()
+		})
+	}
+	
+	
+	// function init() {
+		
+	// }
+
+	// init()
 
 // ✅ .preventDefault()
 
@@ -65,43 +101,57 @@ console.log("------------------------");
 				id: 5,
 				name: "Charmeleon",
 				img: "./images/charmeleon.png",
-				likes: 11,
+				likes: 12,
 			},
 		];
 
-    const makeEl = el => document.createElement(el);
-    const pokeContainer = document.getElementById("poke-container");
+		// const pokemon = {
+		// 	id: 5,
+		// 	name: "Charmeleon",
+		// 	img: "./images/charmeleon.png",
+		// 	likes: 12,
+		// }
+		// pokemon.likes = pokemon.likes + 1
+		// pokemon.likes += 1
+		// console.log(++pokemon.likes)
+		// console.log(pokemon.likes++)
+		// console.log(pokemon.likes)
+		
+		
+		// 1️⃣ Create a function (addLike) that:
+		
+		//  ✔️ Accepts a single Pokemon object (pokemon) and likesNum (h4 displaying number of likes) as parameters
+		
+		//  ✔️ Increments the Pokemon's number of likes by +1
+		
+		//  ✔️ Updates the textContent of likesNum to reflect the Pokemon's updated number of likes
+		
+		// 	💡 In renderPokemon(), add an event listener to likeBttn, making sure to specify the event as well as the 
+		//  callback function (addLike).
+		
+		// 	💡 Use Chrome Dev Tools to view changes being made to the DOM
+		
+		// 2️⃣ Create a function (deletePokemon) that:
+		
+		//  ✔️ Accepts a single pokeCard as a parameter
+		
+		//  ✔️ Removes the pokeCard from the DOM
+		
+		// 	💡 In renderPokemon(), add an event listener to deleteBttn, making sure to specify the event as well as the 
+		//  callback function (deletePokemon).
+		
+		// 	💡 Use Chrome Dev Tools to view changes being made to the DOM
+		
+	const makeEl = el => document.createElement(el);
+	const pokeContainer = document.getElementById("poke-container");
+	
+	// pokeForm = DOM element with ID of "poke-form" => <div id="poke-form"></div>
+	const pokeForm = document.getElementById("poke-form");
 
-    // pokeForm = DOM element with ID of "poke-form" => <div id="poke-form"></div>
-    const pokeForm = document.getElementById("poke-form");
-
-  // 1️⃣ Create a function (addLike) that:
-
-    //  ✔️ Accepts a single Pokemon object (pokemon) and likesNum (h5 displaying number of likes) as parameters
-
-    //  ✔️ Increments the Pokemon's number of likes by +1
-
-    //  ✔️ Updates the textContent of likesNum to reflect the Pokemon's updated number of likes
-  
-    // 	💡 In renderPokemon(), add an event listener to likeBttn, making sure to specify the event as well as the 
-    //  callback function (addLike).
-
-    // 	💡 Use Chrome Dev Tools to view changes being made to the DOM
-
-  // 2️⃣ Create a function (deletePokemon) that:
-
-    //  ✔️ Accepts a single pokeCard as a parameter
-
-    //  ✔️ Removes the pokeCard from the DOM
-
-    // 	💡 In renderPokemon(), add an event listener to deleteBttn, making sure to specify the event as well as the 
-    //  callback function (deletePokemon).
-
-    // 	💡 Use Chrome Dev Tools to view changes being made to the DOM
-
-    function renderPokemon(pokemon) {
+	function renderPokemon(pokemon) {
 		
       // grouping variable assignments helps to improve readability
+	  
       const pokeCard = makeEl("div");
       const pokeImg = makeEl("img");
       const pokeName = makeEl("h3");
@@ -133,13 +183,14 @@ console.log("------------------------");
       likeBttn.textContent = "♥";
       
       // ❗ add likeBttn event listener ❗
+		likeBttn.addEventListener('click',() => addLike(pokemon, likesNum))
 
       // set deleteBtt attributes
       deleteBttn.className = "delete-bttn";
       deleteBttn.textContent = "Delete";
   
       // ❗ add deleteBttn event listener ❗
-  
+		deleteBttn.addEventListener('click', () => deletePoke(pokeCard))
       // append DOM elements to pokeCard
       pokeCard.append(pokeImg, pokeName, pokeLikes, likesNum, likeBttn, deleteBttn);
       
@@ -148,16 +199,19 @@ console.log("------------------------");
     };
 
     function addLike(pokemon, likesNum){
-    //   // ❗ your code here
+		pokemon.likes++
+		likesNum.textContent = pokemon.likes
     }
 
-    function deletePoke(pokeCard){
-    //   // ❗ your code here
+    function deletePoke(elToRemove){
+		elToRemove.remove()
     }
 
 	// ✅ Check Answer: 
 	function init() {
 		pokemons.forEach(renderPokemon);
+		listenerForHeaderClick()
+		listenForFormSubmit()
 	}
 
 	init();
