@@ -69,6 +69,9 @@ console.log("------------------------");
 			},
 		];
 
+    // pokemon.likes += 1 //or ++pokemon.likes, not to be confused with pokemon.likes++, which will return the number then add one
+
+
     const makeEl = el => document.createElement(el);
     const pokeContainer = document.getElementById("poke-container");
 
@@ -148,7 +151,8 @@ console.log("------------------------");
     };
 
     function addLike(pokemon, likesNum){
-    //   // ❗ your code here
+    pokemon ++
+
     }
 
     function deletePoke(pokeCard){
