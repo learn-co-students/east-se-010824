@@ -43,37 +43,43 @@
 
     // .fetch() => used for fetching resources asynchronously across a network
 
+    fetch("https://api.openbrewerydb.org/breweries") //returns a promise
+
+
+
     // fetch('https://api.openbrewerydb.org/breweries') // returns a promise
+
     
     // // once first Promise is resolved...
-    // .then(resp => resp.json()) // ...convert the response into JSON and return another promise
+
+    // .then(resp => console.log(resp)) //check it with console log
+    .then(resp => resp.json()) // ...convert the response into JSON and return another promise
     
     // // once second Promise is resolved...
-    // .then(breweries => {
+    .then(breweries => {
 
-    //     // ...console.log the JS response
-    //     console.log(breweries)
-    // });
+    console.log(breweries)  // ...console.log the JS response
+    });
 
-// ✅ .catch()
+// ✅ .catch() //sometimes promise won't resolve
 
     // .catch() => deals with rejected cases only
 
-    // fetch('https://api.openbrewerydb.org/breweries') // returns a promise
+    // fetch('https://api.openbrewerydb.org/breweriesssssss') // returns a promise -- returns 404 since there is no endpoint
     // .then(resp => resp.json()) // returns another promise
     // .then(breweries => {
     //     console.log(breweries)
-    // }).catch(error => {
+    // }).catch(error => { //"catch all"
     //     console.log(`Here's my error: ${error}`);
     // });
 
 // -------------------------------------------
 
-console.log("------------------------");
-console.log("⬇️ Break Out Activites ⬇️");
-console.log("🚨 Comment Out Lecture Code Above Before Starting 🚨");
-console.log("💡 Use console.log() To Check Answers 💡");
-console.log("------------------------");
+// console.log("------------------------");
+// console.log("⬇️ Break Out Activites ⬇️");
+// console.log("🚨 Comment Out Lecture Code Above Before Starting 🚨");
+// console.log("💡 Use console.log() To Check Answers 💡");
+// console.log("------------------------");
 
 // 🚧 Break Out Activity 1: Fetch GET Requests (Static)
 
@@ -84,7 +90,7 @@ console.log("------------------------");
     const brewList = document.getElementById('brew-list');
     const brewForm = document.getElementById('brew-form');
 
-    function renderBrew(brew){
+    function renderBrew(brew){ //renders one brewery
         const div = document.createElement('div');
         div.id = `brew-card-${brew.id}`;
         div.className='card alert-success';
@@ -98,7 +104,7 @@ console.log("------------------------");
 
         const p = document.createElement('p')
         p.id = `brew-info-${brew.id}`
-        p.textContent = `
+        p.textContent = ` //use template literals to use code on lines and interpolate
             Type: ${brew.brewery_type} - 
             City: ${brew.city} -
             State: ${brew.state}
@@ -119,23 +125,28 @@ console.log("------------------------");
         header.textContent = "No Breweries Found";
 
         div.append(icon, header);
-        container.appendChild(div);
+        brewList.appendChild(div);
     }
 
     // 1️⃣ Create a function (getAllBreweries) that:
-
+    function getAllBreweries(){
         //  ✔️ Fetches all breweries (/breweries)
+        fetch("https://api.openbrewerydb.org/breweries")
         
         //  ✔️ Invokes renderBrew() for each returned "brewery"
-
+        .then(resp => resp.json())
+        .then(data =>  {
+            for(const brewery of data){
+                renderBrew(brewery)
+            }
+        })
         // 	✨ BONUS: Include error handling using .catch()
 
-        function getAllBreweries(){
-            // ❗ your code here
-        }
+        .catch(returnNone)
 
+    }
         // ✅ Check Answer: 
-        // document.addEventListener('DOMContentLoaded', getAllBreweries);
+        document.addEventListener('DOMContentLoaded', getAllBreweries);
 
     // 2️⃣ Create a function (getBreweriesByCity) that:
 
@@ -147,12 +158,19 @@ console.log("------------------------");
 
         // 	✨ BONUS: Include error handling using .catch()
 
+
         function getBreweriesByCity(city){
-            // ❗ your code here
+            fetch("https://api.openbrewerydb.org/breweries?by_city=miami")
+                .then((resp) => resp.json())
+                .then(data => {
+                    for(const city of data){
+                        renderBrew(city)
+                    }
+                })
         }
 
         // ✅ Check Answer: 
-        // document.addEventListener('DOMContentLoaded', getBreweriesByCity('miami'));
+        document.addEventListener('DOMContentLoaded', getBreweriesByCity('miami'));
 
     // 3️⃣  Create a function (getBreweriesByState) that:
 
@@ -165,11 +183,15 @@ console.log("------------------------");
         // 	✨ BONUS: Include error handling using .catch()
 
         function getBreweriesByState(state){
-            // ❗ your code here
+            fetch("https://api.openbrewerydb.org/breweries?by_state=florida")
+            .then(resp => resp.json())
+            .then (data => {
+                data.forEach(renderBrew)
+            })
         }
     
         // ✅ Check Answer: 
-        // document.addEventListener('DOMContentLoaded', getBreweriesByState('florida'));
+        document.addEventListener('DOMContentLoaded', getBreweriesByState('florida'));
 
 // 🚧 Break Out Activity 2: Fetch GET Requests (Dynamic)
 
@@ -191,9 +213,9 @@ console.log("------------------------");
 
         // 	✨ BONUS: Include error handling using .catch()
 
-        function searchBreweries(e){
-            // ❗ your code here
-        }
+        // function searchBreweries(e){
+        //     // ❗ your code here
+        // }
 
         // ✅ Check Answer: 
         // brewForm.addEventListener('submit', searchBreweries);
