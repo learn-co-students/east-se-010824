@@ -9,43 +9,45 @@
 
 // ✅ CRUD with Fetch: GET Requests
 
-	// fetch('http://localhost:3000/items') // returns a promise
+	fetch('http://localhost:3000/pokemons') // returns a promise
     
     // // once first Promise is resolved...
-    // .then(resp => resp.json()) // ...convert the response into JSON and return another promise
+    .then(resp => resp.json()) // ...convert the response into JSON and return another promise
     
     // // once second Promise is resolved...
-    // .then(items => {
+    .then(pokemonArry => {
 
-    //     // ...console.log the JS response
-    //     console.log(item)
-    // });
+        // ...console.log the JS response
+        // console.log(pokemonArry)
+    });
 
 // ✅ CRUD with Fetch: POST Requests
        
-	// let item = { id: 1, content: "my item" };
+	// let comment = {user: "Emiley", content: "my comment" }; //object ordering doesn't matter; will add these items in as noted in the functionb below
 
-	// fetch('http:localhost:3000/items/', {
+	// fetch('http:localhost:3000/comments', {
 	// 	// ❗ specify method
 	// 	method: 'POST',
 		
 	// 	// ❗ specify headers
 	// 	headers: {
-	// 	'Content-Type': 'application/json',
+	// 	'Content-Type': 'application/json', //the content of the body is JSON
 	// 	},
 
 	// 	// ❗ convert the item into a JSON string, necessary for compatibility with db.json 
-	// 	body: JSON.stringify(item),
+	// 	body: JSON.stringify(comment),
 	// })
 	// .then(resp => resp.json())
-	// .then(response => console.log("Success!"));
+	// .then(newComment => console.log(newComment));
 
 // ✅ CRUD with Fetch: PATCH Requests
 
-	// function updateItem(item) {
+//I BROKE THIS
+
+	// function updateItem(comment) { 
 		
 	// 	// ❗ make sure to include identifier (id) in request URL
-	// 	fetch(`http://localhost:3000/items/${item.id}`, {
+	// 	fetch(`http://localhost:3000/comments/${comment.id}`, { //each comment has a unique id
 			
 	// 		// ❗ specify method
 	// 		method: 'PATCH',
@@ -56,40 +58,42 @@
 	// 		},
 
 	// 		// ❗ convert the item into a JSON string
-	// 		body: JSON.stringify(item)
+	// 		body: JSON.stringify(comment)
 	// 	})
 	// 	.then(resp => resp.json())
 
 	// 	// ❗ should return the updated JS object
-	// 	.then(item => console.log(item));
+	// 	.then(item => console.log(item)); //gives you back one comment you updated
 	// }
+
+	
 
 // ✅ CRUD with Fetch: DELETE Requests
 
-	// function deleteItem(item) {
+	function deleteItem(item) {
 
-	// 	fetch(`http:localhost:3000/items/${item.id}`, {
-	// 		// ❗ specify method
-	// 		method: 'DELETE',
+		fetch(`http:localhost:3000/pokemons/${item.id}`, {
+			// ❗ specify method
+			method: 'DELETE',
 			
-	// 		// ❗ specify headers
-	// 		headers: {
-	// 			'Content-Type': 'application/json',
-	// 		}
-	// 	})
-	// 	.then(resp => resp.json())
+			// ❗ specify headers
+			headers: {
+				'Content-Type': 'application/json',
+			}
+		})
+		.then(resp => resp.json())
 
-	// 	// ❗ should return an empty JS object
-	// 	.then(item => console.log(item));
-	// }
+		// ❗ should return an empty JS object
+		.then(item => console.log(item));
+	}
 
 // -------------------------------------------
 
-console.log("------------------------");
-console.log("⬇️ Break Out Activities ⬇️");
-console.log("🚨 Comment Out Lecture Code Above Before Starting 🚨");
-console.log("💡 Use console.log() To Check Answers 💡");
-console.log("------------------------");
+// console.log("------------------------");
+// console.log("⬇️ Break Out Activities ⬇️");
+// console.log("🚨 Comment Out Lecture Code Above Before Starting 🚨");
+// console.log("💡 Use console.log() To Check Answers 💡");
+// console.log("------------------------");
 
 	// ❗ Use these constants / functions in your solutions
 	const BASE_URL = 'http://localhost:3000';
@@ -98,54 +102,117 @@ console.log("------------------------");
 	const commentsForm = document.getElementById('comments-form');
 	
 	function renderPokemon(pokemon) {
-		const pokeCard = document.createElement("div");
-		const pokeImg = document.createElement("img");
-		const pokeName = document.createElement("h3");
-		const pokeLikes = document.createElement("h3");
-		const likesNum = document.createElement("h5");
-		const likeBttn = document.createElement("button");
-		const deleteBttn = document.createElement("button");
 
-		pokeCard.id = `poke-${pokemon.id}`;
-		pokeCard.className = "poke-card";
-		
-		pokeImg.src = pokemon.img;
-		pokeImg.alt = `${pokemon.name} image`;
+		//create elements; note that none are on DOM
+		const pokeCard = document.createElement('div')
+		const pokeImg = document.createElement('img')
+		const pokeName = document.createElement('h3')
+		const pokeLikes = document.createElement('h4')
+		const likeCount = document.createElement('h5')
+		const likeBtn = document.createElement('button')
+		const deleteBtn = document.createElement('button')
 
-		pokeName.textContent = pokemon.name;
-		
-		pokeLikes.textContent = "Likes: ";
-		
-		likesNum.className = "like-num";
-		likesNum.textContent = pokemon.likes;
-		
-		likeBttn.className = "like-bttn";
-		likeBttn.textContent = "♥";
-		likeBttn.addEventListener("click", () => increaseLike(pokemon, likesNum));
 
-		deleteBttn.className = "delete-bttn";
-		deleteBttn.textContent = "Delete";
-		deleteBttn.addEventListener("click", () => deletePoke(pokeCard));
+		//define attributes; STILL not on DOM
+		pokeCard.id = pokemon.id
+		pokeCard.className = "poke-card"
 
-		pokeCard.append(pokeImg, pokeName, pokeLikes, likesNum, likeBttn, deleteBttn);
-		pokeContainer.appendChild(pokeCard);
+		pokeImg.src = pokemon.img
+		pokeImg.alt = `${pokemon.name} image`
+
+		pokeName.textContent = pokemon.name
+		pokeLikes.textContent = "likes: "
+		likeCount.textContent = pokemon.likes
+
+		likeBtn.className = "like-bttn"
+		likeBtn.textContent = "Like"
+		likeBtn.addEventListener('click', ()=>{
+			increaseLike(pokemon, likeCount)
+		})
+
+		deleteBtn.className = "delete-bttn"
+		deleteBtn.textContent = "Delete"
+		deleteBtn.addEventListener('click', () => deletePoke(pokeCard))
+
+		//add to pokecard
+		pokeCard.append(pokeImg, pokeName,likeCount, likeBtn, deleteBtn)
+
+		//add to poke container, which IS on the DOM
+		pokeContainer.append(pokeCard)
+
+
+		// const pokeCard = document.createElement("div");
+		// const pokeImg = document.createElement("img");
+		// const pokeName = document.createElement("h3");
+		// const pokeLikes = document.createElement("h3");
+		// const likesNum = document.createElement("h5");
+		// const likeBttn = document.createElement("button");
+		// const deleteBttn = document.createElement("button");
+
+		// pokeCard.id = `poke-${pokemon.id}`;
+		// pokeCard.className = "poke-card";
+		
+		// pokeImg.src = pokemon.img;
+		// pokeImg.alt = `${pokemon.name} image`;
+
+		// pokeName.textContent = pokemon.name;
+		
+		// pokeLikes.textContent = "Likes: ";
+		
+		// likesNum.className = "like-num";
+		// likesNum.textContent = pokemon.likes;
+		
+		// likeBttn.className = "like-bttn";
+		// likeBttn.textContent = "♥";
+		// likeBttn.addEventListener("click", () => increaseLike(pokemon, likesNum));
+
+		// deleteBttn.className = "delete-bttn";
+		// deleteBttn.textContent = "Delete";
+		// deleteBttn.addEventListener("click", () => deletePoke(pokeCard));
+
+		// pokeCard.append(pokeImg, pokeName, pokeLikes, likesNum, likeBttn, deleteBttn);
+		// pokeContainer.appendChild(pokeCard);
 	}
 
 	function loadPokemons() {
-		fetch(BASE_URL + '/pokemons')
-		.then(resp => resp.json())
-		.then(pokemons => {
-			pokemons.forEach(renderPokemon);  
-		});
+		//make request to get pokemon
+		fetch('http://localhost:3000/pokemons')
+		.then((resp)=>resp.json())
+		.then((data) => data.forEach((e) => renderPokemon(e)))
+
+
+		// fetch(BASE_URL + '/pokemons')
+		// .then(resp => resp.json())
+		// .then(pokemons => {
+		// 	pokemons.forEach(renderPokemon);  
+		// });
 	}
 
 	function increaseLike(pokemon, likesElement) {
-		++pokemon.likes;
+		++pokemon.likes; // or "pokemon = pokemon.likes + 1" or "pokemon+1"
 		likesElement.textContent = pokemon.likes;
+		//now need to make a patch request to update JSON
+		fetch(`http://localhost:3000/pokemons/${pokemon.id}`, { //MUST INCLUDE THE ID to know which pokemon to update; use template literal
+			method: 'PATCH',
+			headers: {
+				"Content-Type": "application/JSON"
+			},
+			body: JSON.stringify({
+				likes: pokemon.likes
+			}) //what we are passing in MUST be an object
+		})
+		.then ((resp)=> resp.json())
+		.then (data => console.log(data)) //usually has console.log at end to show what you've added --- the above will update the DOM
 	}
 
 	function deletePoke(pokeCard) {
+		// console.log(pokeCard)
 		pokeCard.remove();
+
+		//now remove from JSON
+
+		deleteItem(pokeCard)
+
 	}
 
 // 🚧 Break Out Activity 1: GET Requests with json-server
@@ -222,8 +289,8 @@ console.log("------------------------");
 	// ✅ Check Answer: 
 	function init() {
 		loadPokemons();
-		loadComments();
-		commentsForm.addEventListener("submit", createComment);
+		// loadComments();
+		// commentsForm.addEventListener("submit", createComment);
 	}
 
 	init();
