@@ -21,14 +21,15 @@
 
             // async function sayHello() {
             //     console.log("Hello!");
-            //     return new Promise(resolve => setTimeout(resolve, 1000));
+            //     return new Promise(resolve => setTimeout(resolve, 3000));
             // }
 
             // function sayGoodbye(){
             //     console.log("Goodbye!");
             // }
 
-            // sayHello().then(sayGoodbye);
+            // sayHello()
+            // .then(sayGoodbye);
 
 // ✅ HTTP Verbs
 
@@ -45,21 +46,23 @@
 
     // fetch('https://api.openbrewerydb.org/breweries') // returns a promise
     
-    // // once first Promise is resolved...
-    // .then(resp => resp.json()) // ...convert the response into JSON and return another promise
+    // // // once first Promise is resolved...
+    // .then(resp => resp.json()) // ...convert the response JSON and return another promise
     
-    // // once second Promise is resolved...
+    // // // once second Promise is resolved...
     // .then(breweries => {
 
-    //     // ...console.log the JS response
+    // //     // ...console.log the JS response
     //     console.log(breweries)
     // });
+
+
 
 // ✅ .catch()
 
     // .catch() => deals with rejected cases only
 
-    // fetch('https://api.openbrewerydb.org/breweries') // returns a promise
+    // fetch('https://api.openbrewerydb.org/breweriesssssss') // returns a promise
     // .then(resp => resp.json()) // returns another promise
     // .then(breweries => {
     //     console.log(breweries)
@@ -69,11 +72,11 @@
 
 // -------------------------------------------
 
-console.log("------------------------");
-console.log("⬇️ Break Out Activites ⬇️");
-console.log("🚨 Comment Out Lecture Code Above Before Starting 🚨");
-console.log("💡 Use console.log() To Check Answers 💡");
-console.log("------------------------");
+// console.log("------------------------");
+// console.log("⬇️ Break Out Activites ⬇️");
+// console.log("🚨 Comment Out Lecture Code Above Before Starting 🚨");
+// console.log("💡 Use console.log() To Check Answers 💡");
+// console.log("------------------------");
 
 // 🚧 Break Out Activity 1: Fetch GET Requests (Static)
 
@@ -107,6 +110,10 @@ console.log("------------------------");
         brewList.appendChild(div);
     }
 
+    function renderAllBreweries(breweries) {
+        breweries.forEach(renderBrew)
+    }
+
     function returnNone() {
         const div = document.createElement('div');
         div.className='card alert-warning';
@@ -119,7 +126,7 @@ console.log("------------------------");
         header.textContent = "No Breweries Found";
 
         div.append(icon, header);
-        container.appendChild(div);
+        brewList.appendChild(div);
     }
 
     // 1️⃣ Create a function (getAllBreweries) that:
@@ -131,8 +138,13 @@ console.log("------------------------");
         // 	✨ BONUS: Include error handling using .catch()
 
         function getAllBreweries(){
-            // ❗ your code here
+            fetch('https://api.openbrewerydb.org/breweries?by_city=san_jose')
+                .then((resp) => resp.json())
+                .then(renderAllBreweries)
+                .catch(returnNone)
         }
+
+        getAllBreweries()
 
         // ✅ Check Answer: 
         // document.addEventListener('DOMContentLoaded', getAllBreweries);
