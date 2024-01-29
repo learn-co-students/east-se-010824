@@ -1,5 +1,16 @@
+import Header from "./components/Header"
+import ProjectForm from "./components/ProjectForm"
+import ProjectsList from "./components/ProjectsList"
+
+import tabs from "./practice";
+import projects from "./projects"
+
 function App() {
-  return <div className="App">Project Showcase</div>;
+  return <div className="App">
+    <Header tabs={ tabs } />
+    <ProjectForm />
+    <ProjectsList projects={projects} />
+  </div>;
 }
 
 export default App;
