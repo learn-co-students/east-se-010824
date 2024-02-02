@@ -1,8 +1,7 @@
 import { useState } from "react"
 
 import Header from "./components/Header"
-import ProjectForm from "./components/ProjectForm"
-import ProjectsList from "./components/ProjectsList"
+import ProjectContainer from "./components/ProjectContainer"
 
 import projects from "./projects"
 
@@ -17,8 +16,7 @@ function App() {
 
   return <div className={className}>
     <Header darkMode={darkMode} onDarkModeToggle={onDarkModeToggle}/>
-    <ProjectForm />
-    <ProjectsList projects={projects} />
+    <ProjectContainer allProjects={projects} />
   </div>;
 }
 
