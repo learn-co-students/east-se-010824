@@ -24,11 +24,22 @@ function ProjectForm({ onAddProject }) {
     function handleSubmit(event) {
         event.preventDefault()
         // POST request to persist
-        onAddProject(formData)
+        fetch('http://localhost:3001/projects', {
+            method: 'POST',
+            headers: {
+                "Content-Type": 'application/json'
+            },
+            body: JSON.stringify(formData)
+        })
+        .then((resp) => resp.json())
+        .then((newProject) => {
+            onAddProject(newProject)
+            setFormData(initialState)
+        })
     }
 
     return (
-        <form onSubmit={handleSubmit}>
+        <form className="form" onSubmit={handleSubmit}>
             <label htmlFor='name'>Name:</label>
             <input 
                 id='name' 
