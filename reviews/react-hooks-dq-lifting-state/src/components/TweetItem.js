@@ -14,7 +14,7 @@ function TweetItem(props) {
         <div className="extra text">{props.tweet.text}</div>
         <div className="meta">
           <button
-            onClick={() => console.log("%ca tweet was liked", "color: red")}
+            onClick={() => props.handleTweetLike(props.tweet.id)}
             className="ui tiny basic labeled icon like button"
           >
             <i className="like icon"></i> {props.tweet.favorite_count} Likes

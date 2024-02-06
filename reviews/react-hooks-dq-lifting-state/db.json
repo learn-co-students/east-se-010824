@@ -1,0 +1,79 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "handle": "@coffee_dad",
+      "description": "just a dad who loves his coffee",
+      "photo": "https://pbs.twimg.com/profile_images/378800000823347939/036f78135425d19367fcbb76ef58e86d_bigger.jpeg"
+    },
+    {
+      "id": "2",
+      "handle": "@dog_feelings",
+      "description": "Thoughts of Dog",
+      "photo": "https://pbs.twimg.com/profile_images/1046968391389589507/_0r5bQLl_400x400.jpg"
+    },
+    {
+      "id": "3",
+      "handle": "@horse_ebooks",
+      "description": "Horse ebooks",
+      "photo": "https://pbs.twimg.com/profile_images/1096005346/1_400x400.jpg"
+    },
+    {
+      "id": "4",
+      "handle": "@microsff",
+      "description": "Very short science fiction/fantasy stories by O. Westin.",
+      "photo": "https://pbs.twimg.com/profile_images/522520775002058752/ZD7KK74G_400x400.jpeg"
+    }
+  ],
+  "tweets": [
+    {
+      "created_at": "Wed Jun 12 13:49:10 +0000 2019",
+      "id": "1138805443562803205",
+      "text": "coffee",
+      "favorite_count": 5784,
+      "userId": "1"
+    },
+    {
+      "created_at": "Wed Apr 24 13:06:02 +0000 2019",
+      "id": "1121037584782827520",
+      "text": "fresh cup #of coffee",
+      "favorite_count": 5620,
+      "userId": "1"
+    },
+    {
+      "created_at": "Mon Jun 24 19:06:32 +0000 2019",
+      "id": "1143233967782449153",
+      "text": "RT @dog_rates: This is Frida. She became Mexico’s symbol for hope after the 2017 earthquakes. It’s reported she’s located over 50 people in…",
+      "favorite_count": 0,
+      "userId": "2"
+    },
+    {
+      "created_at": "Mon Jun 24 12:59:18 +0000 2019",
+      "id": "1143141550639087616",
+      "text": "gooooob morning. sometimes when the human is still asleep. i will quietly climb onto their face. and wait patiently… https://t.co/UtLfwKgGaH",
+      "favorite_count": 127109,
+      "userId": "2"
+    },
+    {
+      "created_at": "Sat Jun 22 18:38:48 +0000 2019",
+      "id": "1142502211143925760",
+      "text": "IT IS A BEAUTIFUL DAY. MY CONFIDENCE IS SOARING. GIVE ME MY LEASH I’LL WALK MYSELF. LOOK AT THESE HIPS SWAY",
+      "favorite_count": 160414,
+      "userId": "2"
+    },
+    {
+      "created_at": "Tue Sep 24 14:01:27 +0000 2013",
+      "id": "382505058962644993",
+      "text": "Bear Stearns Bravo",
+      "favorite_count": 1007,
+      "userId": "3"
+    },
+    {
+      "created_at": "Tue Jun 25 19:41:39 +0000 2019",
+      "id": "1143605190504976386",
+      "text": "@glye I don't know. Maybe @mkrtxt can advice?",
+      "favorite_count": 0,
+      "userId": "4"
+    }
+  ]
+}
