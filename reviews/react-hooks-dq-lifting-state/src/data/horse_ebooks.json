@@ -1,0 +1,914 @@
+[
+  {
+      "created_at": "Tue Sep 24 14:01:27 +0000 2013",
+      "id": 382505058962644993,
+      "id_str": "382505058962644993",
+      "text": "Bear Stearns Bravo",
+      "truncated": false,
+      "entities": {
+          "hashtags": [],
+          "symbols": [],
+          "user_mentions": [],
+          "urls": []
+      },
+      "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+          "id": 174958347,
+          "id_str": "174958347",
+          "name": "Horse ebooks",
+          "screen_name": "Horse_ebooks",
+          "location": "",
+          "description": "Horse ebooks",
+          "url": "http://t.co/pVoIka58TM",
+          "entities": {
+              "url": {
+                  "urls": [
+                      {
+                          "url": "http://t.co/pVoIka58TM",
+                          "expanded_url": "http://horse-ebooks.com/",
+                          "display_url": "horse-ebooks.com",
+                          "indices": [
+                              0,
+                              22
+                          ]
+                      }
+                  ]
+              },
+              "description": {
+                  "urls": []
+              }
+          },
+          "protected": false,
+          "followers_count": 156744,
+          "friends_count": 14183,
+          "listed_count": 1696,
+          "created_at": "Thu Aug 05 07:18:32 +0000 2010",
+          "favourites_count": 1,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": false,
+          "verified": false,
+          "statuses_count": 18824,
+          "lang": null,
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "C0DEED",
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/1096005346/1_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/1096005346/1_normal.jpg",
+          "profile_link_color": "1DA1F2",
+          "profile_sidebar_border_color": "C0DEED",
+          "profile_sidebar_fill_color": "DDEEF6",
+          "profile_text_color": "333333",
+          "profile_use_background_image": true,
+          "has_extended_profile": false,
+          "default_profile": true,
+          "default_profile_image": false,
+          "following": false,
+          "follow_request_sent": false,
+          "notifications": false,
+          "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 1055,
+      "favorite_count": 1004,
+      "favorited": false,
+      "retweeted": false,
+      "lang": "en"
+  },
+  {
+      "created_at": "Tue Sep 24 14:01:16 +0000 2013",
+      "id": 382505013710315520,
+      "id_str": "382505013710315520",
+      "text": "(213) 444 0102",
+      "truncated": false,
+      "entities": {
+          "hashtags": [],
+          "symbols": [],
+          "user_mentions": [],
+          "urls": []
+      },
+      "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+          "id": 174958347,
+          "id_str": "174958347",
+          "name": "Horse ebooks",
+          "screen_name": "Horse_ebooks",
+          "location": "",
+          "description": "Horse ebooks",
+          "url": "http://t.co/pVoIka58TM",
+          "entities": {
+              "url": {
+                  "urls": [
+                      {
+                          "url": "http://t.co/pVoIka58TM",
+                          "expanded_url": "http://horse-ebooks.com/",
+                          "display_url": "horse-ebooks.com",
+                          "indices": [
+                              0,
+                              22
+                          ]
+                      }
+                  ]
+              },
+              "description": {
+                  "urls": []
+              }
+          },
+          "protected": false,
+          "followers_count": 156744,
+          "friends_count": 14183,
+          "listed_count": 1696,
+          "created_at": "Thu Aug 05 07:18:32 +0000 2010",
+          "favourites_count": 1,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": false,
+          "verified": false,
+          "statuses_count": 18824,
+          "lang": null,
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "C0DEED",
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/1096005346/1_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/1096005346/1_normal.jpg",
+          "profile_link_color": "1DA1F2",
+          "profile_sidebar_border_color": "C0DEED",
+          "profile_sidebar_fill_color": "DDEEF6",
+          "profile_text_color": "333333",
+          "profile_use_background_image": true,
+          "has_extended_profile": false,
+          "default_profile": true,
+          "default_profile_image": false,
+          "following": false,
+          "follow_request_sent": false,
+          "notifications": false,
+          "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 748,
+      "favorite_count": 770,
+      "favorited": false,
+      "retweeted": false,
+      "lang": "und"
+  },
+  {
+      "created_at": "Tue Sep 24 14:00:54 +0000 2013",
+      "id": 382504920181518338,
+      "id_str": "382504920181518338",
+      "text": "http://t.co/fFjVzCrTrZ",
+      "truncated": false,
+      "entities": {
+          "hashtags": [],
+          "symbols": [],
+          "user_mentions": [],
+          "urls": [
+              {
+                  "url": "http://t.co/fFjVzCrTrZ",
+                  "expanded_url": "http://www.youtube.com/watch?v=i_HaMlLJ7Jk",
+                  "display_url": "youtube.com/watch?v=i_HaMl…",
+                  "indices": [
+                      0,
+                      22
+                  ]
+              }
+          ]
+      },
+      "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+          "id": 174958347,
+          "id_str": "174958347",
+          "name": "Horse ebooks",
+          "screen_name": "Horse_ebooks",
+          "location": "",
+          "description": "Horse ebooks",
+          "url": "http://t.co/pVoIka58TM",
+          "entities": {
+              "url": {
+                  "urls": [
+                      {
+                          "url": "http://t.co/pVoIka58TM",
+                          "expanded_url": "http://horse-ebooks.com/",
+                          "display_url": "horse-ebooks.com",
+                          "indices": [
+                              0,
+                              22
+                          ]
+                      }
+                  ]
+              },
+              "description": {
+                  "urls": []
+              }
+          },
+          "protected": false,
+          "followers_count": 156744,
+          "friends_count": 14183,
+          "listed_count": 1696,
+          "created_at": "Thu Aug 05 07:18:32 +0000 2010",
+          "favourites_count": 1,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": false,
+          "verified": false,
+          "statuses_count": 18824,
+          "lang": null,
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "C0DEED",
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/1096005346/1_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/1096005346/1_normal.jpg",
+          "profile_link_color": "1DA1F2",
+          "profile_sidebar_border_color": "C0DEED",
+          "profile_sidebar_fill_color": "DDEEF6",
+          "profile_text_color": "333333",
+          "profile_use_background_image": true,
+          "has_extended_profile": false,
+          "default_profile": true,
+          "default_profile_image": false,
+          "following": false,
+          "follow_request_sent": false,
+          "notifications": false,
+          "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 593,
+      "favorite_count": 619,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "und"
+  },
+  {
+      "created_at": "Tue Sep 24 14:00:40 +0000 2013",
+      "id": 382504860777582594,
+      "id_str": "382504860777582594",
+      "text": "I m going to outline 14 different ways that I ve found you",
+      "truncated": false,
+      "entities": {
+          "hashtags": [],
+          "symbols": [],
+          "user_mentions": [],
+          "urls": []
+      },
+      "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+          "id": 174958347,
+          "id_str": "174958347",
+          "name": "Horse ebooks",
+          "screen_name": "Horse_ebooks",
+          "location": "",
+          "description": "Horse ebooks",
+          "url": "http://t.co/pVoIka58TM",
+          "entities": {
+              "url": {
+                  "urls": [
+                      {
+                          "url": "http://t.co/pVoIka58TM",
+                          "expanded_url": "http://horse-ebooks.com/",
+                          "display_url": "horse-ebooks.com",
+                          "indices": [
+                              0,
+                              22
+                          ]
+                      }
+                  ]
+              },
+              "description": {
+                  "urls": []
+              }
+          },
+          "protected": false,
+          "followers_count": 156744,
+          "friends_count": 14183,
+          "listed_count": 1696,
+          "created_at": "Thu Aug 05 07:18:32 +0000 2010",
+          "favourites_count": 1,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": false,
+          "verified": false,
+          "statuses_count": 18824,
+          "lang": null,
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "C0DEED",
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/1096005346/1_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/1096005346/1_normal.jpg",
+          "profile_link_color": "1DA1F2",
+          "profile_sidebar_border_color": "C0DEED",
+          "profile_sidebar_fill_color": "DDEEF6",
+          "profile_text_color": "333333",
+          "profile_use_background_image": true,
+          "has_extended_profile": false,
+          "default_profile": true,
+          "default_profile_image": false,
+          "following": false,
+          "follow_request_sent": false,
+          "notifications": false,
+          "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 3005,
+      "favorite_count": 3048,
+      "favorited": false,
+      "retweeted": false,
+      "lang": "en"
+  },
+  {
+      "created_at": "Tue Sep 24 11:29:46 +0000 2013",
+      "id": 382466889332445184,
+      "id_str": "382466889332445184",
+      "text": "The real goal of any talk or speech",
+      "truncated": false,
+      "entities": {
+          "hashtags": [],
+          "symbols": [],
+          "user_mentions": [],
+          "urls": []
+      },
+      "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+          "id": 174958347,
+          "id_str": "174958347",
+          "name": "Horse ebooks",
+          "screen_name": "Horse_ebooks",
+          "location": "",
+          "description": "Horse ebooks",
+          "url": "http://t.co/pVoIka58TM",
+          "entities": {
+              "url": {
+                  "urls": [
+                      {
+                          "url": "http://t.co/pVoIka58TM",
+                          "expanded_url": "http://horse-ebooks.com/",
+                          "display_url": "horse-ebooks.com",
+                          "indices": [
+                              0,
+                              22
+                          ]
+                      }
+                  ]
+              },
+              "description": {
+                  "urls": []
+              }
+          },
+          "protected": false,
+          "followers_count": 156744,
+          "friends_count": 14183,
+          "listed_count": 1696,
+          "created_at": "Thu Aug 05 07:18:32 +0000 2010",
+          "favourites_count": 1,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": false,
+          "verified": false,
+          "statuses_count": 18824,
+          "lang": null,
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "C0DEED",
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/1096005346/1_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/1096005346/1_normal.jpg",
+          "profile_link_color": "1DA1F2",
+          "profile_sidebar_border_color": "C0DEED",
+          "profile_sidebar_fill_color": "DDEEF6",
+          "profile_text_color": "333333",
+          "profile_use_background_image": true,
+          "has_extended_profile": false,
+          "default_profile": true,
+          "default_profile_image": false,
+          "following": false,
+          "follow_request_sent": false,
+          "notifications": false,
+          "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 562,
+      "favorite_count": 461,
+      "favorited": false,
+      "retweeted": false,
+      "lang": "en"
+  },
+  {
+      "created_at": "Tue Sep 24 09:22:46 +0000 2013",
+      "id": 382434925489582080,
+      "id_str": "382434925489582080",
+      "text": "All Star Personal Trainers http://t.co/5dcCqnMvVG",
+      "truncated": false,
+      "entities": {
+          "hashtags": [],
+          "symbols": [],
+          "user_mentions": [],
+          "urls": [
+              {
+                  "url": "http://t.co/5dcCqnMvVG",
+                  "expanded_url": "http://tinyurl.com/pr5teaa",
+                  "display_url": "tinyurl.com/pr5teaa",
+                  "indices": [
+                      27,
+                      49
+                  ]
+              }
+          ]
+      },
+      "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+          "id": 174958347,
+          "id_str": "174958347",
+          "name": "Horse ebooks",
+          "screen_name": "Horse_ebooks",
+          "location": "",
+          "description": "Horse ebooks",
+          "url": "http://t.co/pVoIka58TM",
+          "entities": {
+              "url": {
+                  "urls": [
+                      {
+                          "url": "http://t.co/pVoIka58TM",
+                          "expanded_url": "http://horse-ebooks.com/",
+                          "display_url": "horse-ebooks.com",
+                          "indices": [
+                              0,
+                              22
+                          ]
+                      }
+                  ]
+              },
+              "description": {
+                  "urls": []
+              }
+          },
+          "protected": false,
+          "followers_count": 156744,
+          "friends_count": 14183,
+          "listed_count": 1696,
+          "created_at": "Thu Aug 05 07:18:32 +0000 2010",
+          "favourites_count": 1,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": false,
+          "verified": false,
+          "statuses_count": 18824,
+          "lang": null,
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "C0DEED",
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/1096005346/1_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/1096005346/1_normal.jpg",
+          "profile_link_color": "1DA1F2",
+          "profile_sidebar_border_color": "C0DEED",
+          "profile_sidebar_fill_color": "DDEEF6",
+          "profile_text_color": "333333",
+          "profile_use_background_image": true,
+          "has_extended_profile": false,
+          "default_profile": true,
+          "default_profile_image": false,
+          "following": false,
+          "follow_request_sent": false,
+          "notifications": false,
+          "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 18,
+      "favorite_count": 49,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+  },
+  {
+      "created_at": "Tue Sep 24 05:52:32 +0000 2013",
+      "id": 382382019021266944,
+      "id_str": "382382019021266944",
+      "text": "to discourage you by telling",
+      "truncated": false,
+      "entities": {
+          "hashtags": [],
+          "symbols": [],
+          "user_mentions": [],
+          "urls": []
+      },
+      "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+          "id": 174958347,
+          "id_str": "174958347",
+          "name": "Horse ebooks",
+          "screen_name": "Horse_ebooks",
+          "location": "",
+          "description": "Horse ebooks",
+          "url": "http://t.co/pVoIka58TM",
+          "entities": {
+              "url": {
+                  "urls": [
+                      {
+                          "url": "http://t.co/pVoIka58TM",
+                          "expanded_url": "http://horse-ebooks.com/",
+                          "display_url": "horse-ebooks.com",
+                          "indices": [
+                              0,
+                              22
+                          ]
+                      }
+                  ]
+              },
+              "description": {
+                  "urls": []
+              }
+          },
+          "protected": false,
+          "followers_count": 156744,
+          "friends_count": 14183,
+          "listed_count": 1696,
+          "created_at": "Thu Aug 05 07:18:32 +0000 2010",
+          "favourites_count": 1,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": false,
+          "verified": false,
+          "statuses_count": 18824,
+          "lang": null,
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "C0DEED",
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/1096005346/1_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/1096005346/1_normal.jpg",
+          "profile_link_color": "1DA1F2",
+          "profile_sidebar_border_color": "C0DEED",
+          "profile_sidebar_fill_color": "DDEEF6",
+          "profile_text_color": "333333",
+          "profile_use_background_image": true,
+          "has_extended_profile": false,
+          "default_profile": true,
+          "default_profile_image": false,
+          "following": false,
+          "follow_request_sent": false,
+          "notifications": false,
+          "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 596,
+      "favorite_count": 458,
+      "favorited": false,
+      "retweeted": false,
+      "lang": "en"
+  },
+  {
+      "created_at": "Tue Sep 24 04:38:38 +0000 2013",
+      "id": 382363423989723136,
+      "id_str": "382363423989723136",
+      "text": "space in your house How to sell faster than your neighbors How to make a strategic use",
+      "truncated": false,
+      "entities": {
+          "hashtags": [],
+          "symbols": [],
+          "user_mentions": [],
+          "urls": []
+      },
+      "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+          "id": 174958347,
+          "id_str": "174958347",
+          "name": "Horse ebooks",
+          "screen_name": "Horse_ebooks",
+          "location": "",
+          "description": "Horse ebooks",
+          "url": "http://t.co/pVoIka58TM",
+          "entities": {
+              "url": {
+                  "urls": [
+                      {
+                          "url": "http://t.co/pVoIka58TM",
+                          "expanded_url": "http://horse-ebooks.com/",
+                          "display_url": "horse-ebooks.com",
+                          "indices": [
+                              0,
+                              22
+                          ]
+                      }
+                  ]
+              },
+              "description": {
+                  "urls": []
+              }
+          },
+          "protected": false,
+          "followers_count": 156744,
+          "friends_count": 14183,
+          "listed_count": 1696,
+          "created_at": "Thu Aug 05 07:18:32 +0000 2010",
+          "favourites_count": 1,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": false,
+          "verified": false,
+          "statuses_count": 18824,
+          "lang": null,
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "C0DEED",
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/1096005346/1_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/1096005346/1_normal.jpg",
+          "profile_link_color": "1DA1F2",
+          "profile_sidebar_border_color": "C0DEED",
+          "profile_sidebar_fill_color": "DDEEF6",
+          "profile_text_color": "333333",
+          "profile_use_background_image": true,
+          "has_extended_profile": false,
+          "default_profile": true,
+          "default_profile_image": false,
+          "following": false,
+          "follow_request_sent": false,
+          "notifications": false,
+          "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 347,
+      "favorite_count": 294,
+      "favorited": false,
+      "retweeted": false,
+      "lang": "en"
+  },
+  {
+      "created_at": "Tue Sep 24 01:19:17 +0000 2013",
+      "id": 382313252832542720,
+      "id_str": "382313252832542720",
+      "text": "-And Gain Power By Learning Ways To Become Peaceful",
+      "truncated": false,
+      "entities": {
+          "hashtags": [],
+          "symbols": [],
+          "user_mentions": [],
+          "urls": []
+      },
+      "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+          "id": 174958347,
+          "id_str": "174958347",
+          "name": "Horse ebooks",
+          "screen_name": "Horse_ebooks",
+          "location": "",
+          "description": "Horse ebooks",
+          "url": "http://t.co/pVoIka58TM",
+          "entities": {
+              "url": {
+                  "urls": [
+                      {
+                          "url": "http://t.co/pVoIka58TM",
+                          "expanded_url": "http://horse-ebooks.com/",
+                          "display_url": "horse-ebooks.com",
+                          "indices": [
+                              0,
+                              22
+                          ]
+                      }
+                  ]
+              },
+              "description": {
+                  "urls": []
+              }
+          },
+          "protected": false,
+          "followers_count": 156744,
+          "friends_count": 14183,
+          "listed_count": 1696,
+          "created_at": "Thu Aug 05 07:18:32 +0000 2010",
+          "favourites_count": 1,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": false,
+          "verified": false,
+          "statuses_count": 18824,
+          "lang": null,
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "C0DEED",
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/1096005346/1_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/1096005346/1_normal.jpg",
+          "profile_link_color": "1DA1F2",
+          "profile_sidebar_border_color": "C0DEED",
+          "profile_sidebar_fill_color": "DDEEF6",
+          "profile_text_color": "333333",
+          "profile_use_background_image": true,
+          "has_extended_profile": false,
+          "default_profile": true,
+          "default_profile_image": false,
+          "following": false,
+          "follow_request_sent": false,
+          "notifications": false,
+          "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 685,
+      "favorite_count": 633,
+      "favorited": false,
+      "retweeted": false,
+      "lang": "en"
+  },
+  {
+      "created_at": "Mon Sep 23 21:56:41 +0000 2013",
+      "id": 382262268466962433,
+      "id_str": "382262268466962433",
+      "text": "This is a very special technique that I have never seen",
+      "truncated": false,
+      "entities": {
+          "hashtags": [],
+          "symbols": [],
+          "user_mentions": [],
+          "urls": []
+      },
+      "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+          "id": 174958347,
+          "id_str": "174958347",
+          "name": "Horse ebooks",
+          "screen_name": "Horse_ebooks",
+          "location": "",
+          "description": "Horse ebooks",
+          "url": "http://t.co/pVoIka58TM",
+          "entities": {
+              "url": {
+                  "urls": [
+                      {
+                          "url": "http://t.co/pVoIka58TM",
+                          "expanded_url": "http://horse-ebooks.com/",
+                          "display_url": "horse-ebooks.com",
+                          "indices": [
+                              0,
+                              22
+                          ]
+                      }
+                  ]
+              },
+              "description": {
+                  "urls": []
+              }
+          },
+          "protected": false,
+          "followers_count": 156744,
+          "friends_count": 14183,
+          "listed_count": 1696,
+          "created_at": "Thu Aug 05 07:18:32 +0000 2010",
+          "favourites_count": 1,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": false,
+          "verified": false,
+          "statuses_count": 18824,
+          "lang": null,
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "C0DEED",
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/1096005346/1_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/1096005346/1_normal.jpg",
+          "profile_link_color": "1DA1F2",
+          "profile_sidebar_border_color": "C0DEED",
+          "profile_sidebar_fill_color": "DDEEF6",
+          "profile_text_color": "333333",
+          "profile_use_background_image": true,
+          "has_extended_profile": false,
+          "default_profile": true,
+          "default_profile_image": false,
+          "following": false,
+          "follow_request_sent": false,
+          "notifications": false,
+          "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 2171,
+      "favorite_count": 1796,
+      "favorited": false,
+      "retweeted": false,
+      "lang": "en"
+  }
+]

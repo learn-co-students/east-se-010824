@@ -1,0 +1,33 @@
+/* Semantic tweaks to get dark mode working */
+.ui.inverted.menu .ui.toggle.checkbox input:checked~label {
+  color: white !important;
+}
+
+.dark-mode {
+  color: white;
+  background-color: #aaa;
+}
+
+.main.container {
+  padding-top: 5em;
+}
+
+.dark-mode .ui.segment, 
+.dark-mode .ui.feed,
+.dark-mode .ui.card, 
+.dark-mode .ui.cards>.card {
+  background-color: #333;
+  color: white !important;
+}
+
+.dark-mode .ui.feed>.event>.content .summary,
+.dark-mode .ui.feed>.event>.content .extra.text,
+.dark-mode .ui.cards>.card>.content>.header,
+.dark-mode .ui.cards>.card>.content>.description {
+  color: white !important;
+}
+
+.dark-mode .ui.feed>.event>.content .meta a,
+.dark-mode .ui.feed>.event>.content .summary>.date {
+  color: rgba(255,255,255,.6) !important;
+}

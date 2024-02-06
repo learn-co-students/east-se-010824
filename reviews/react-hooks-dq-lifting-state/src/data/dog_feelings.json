@@ -1,0 +1,1270 @@
+[
+  {
+      "created_at": "Mon Jun 24 19:06:32 +0000 2019",
+      "id": 1143233967782449153,
+      "id_str": "1143233967782449153",
+      "text": "RT @dog_rates: This is Frida. She became Mexico’s symbol for hope after the 2017 earthquakes. It’s reported she’s located over 50 people in…",
+      "truncated": false,
+      "entities": {
+          "hashtags": [],
+          "symbols": [],
+          "user_mentions": [
+              {
+                  "screen_name": "dog_rates",
+                  "name": "WeRateDogs™ 🏳️\u200d🌈",
+                  "id": 4196983835,
+                  "id_str": "4196983835",
+                  "indices": [
+                      3,
+                      13
+                  ]
+              }
+          ],
+          "urls": []
+      },
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+          "id": 846137120209190912,
+          "id_str": "846137120209190912",
+          "name": "Thoughts of Dog 🏳️\u200d🌈",
+          "screen_name": "dog_feelings",
+          "location": "",
+          "description": "2020 planner below ¨̮",
+          "url": "https://t.co/Sliao6j2kG",
+          "entities": {
+              "url": {
+                  "urls": [
+                      {
+                          "url": "https://t.co/Sliao6j2kG",
+                          "expanded_url": "http://publishing.andrewsmcmeel.com/catalog/detail?sku=9781524851040",
+                          "display_url": "publishing.andrewsmcmeel.com/catalog/detail…",
+                          "indices": [
+                              0,
+                              23
+                          ]
+                      }
+                  ]
+              },
+              "description": {
+                  "urls": []
+              }
+          },
+          "protected": false,
+          "followers_count": 2647223,
+          "friends_count": 2,
+          "listed_count": 3621,
+          "created_at": "Sun Mar 26 23:09:44 +0000 2017",
+          "favourites_count": 1512,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": false,
+          "verified": true,
+          "statuses_count": 939,
+          "lang": null,
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "F5F8FA",
+          "profile_background_image_url": null,
+          "profile_background_image_url_https": null,
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/1046968391389589507/_0r5bQLl_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/1046968391389589507/_0r5bQLl_normal.jpg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/846137120209190912/1560181980",
+          "profile_link_color": "1DA1F2",
+          "profile_sidebar_border_color": "C0DEED",
+          "profile_sidebar_fill_color": "DDEEF6",
+          "profile_text_color": "333333",
+          "profile_use_background_image": true,
+          "has_extended_profile": false,
+          "default_profile": true,
+          "default_profile_image": false,
+          "following": false,
+          "follow_request_sent": false,
+          "notifications": false,
+          "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweeted_status": {
+          "created_at": "Mon Jun 24 19:05:41 +0000 2019",
+          "id": 1143233751100489728,
+          "id_str": "1143233751100489728",
+          "text": "This is Frida. She became Mexico’s symbol for hope after the 2017 earthquakes. It’s reported she’s located over 50… https://t.co/Fdb8MplO3l",
+          "truncated": true,
+          "entities": {
+              "hashtags": [],
+              "symbols": [],
+              "user_mentions": [],
+              "urls": [
+                  {
+                      "url": "https://t.co/Fdb8MplO3l",
+                      "expanded_url": "https://twitter.com/i/web/status/1143233751100489728",
+                      "display_url": "twitter.com/i/web/status/1…",
+                      "indices": [
+                          116,
+                          139
+                      ]
+                  }
+              ]
+          },
+          "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+          "in_reply_to_status_id": null,
+          "in_reply_to_status_id_str": null,
+          "in_reply_to_user_id": null,
+          "in_reply_to_user_id_str": null,
+          "in_reply_to_screen_name": null,
+          "user": {
+              "id": 4196983835,
+              "id_str": "4196983835",
+              "name": "WeRateDogs™ 🏳️\u200d🌈",
+              "screen_name": "dog_rates",
+              "location": "「 DM YOUR DOGS 」",
+              "description": "Your Only Source For Professional Dog Ratings Instagram and Facebook ➪ WeRateDogs partnerships@weratedogs.com ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀",
+              "url": "https://t.co/N7sNNHSfPq",
+              "entities": {
+                  "url": {
+                      "urls": [
+                          {
+                              "url": "https://t.co/N7sNNHSfPq",
+                              "expanded_url": "http://weratedogs.com",
+                              "display_url": "weratedogs.com",
+                              "indices": [
+                                  0,
+                                  23
+                              ]
+                          }
+                      ]
+                  },
+                  "description": {
+                      "urls": []
+                  }
+              },
+              "protected": false,
+              "followers_count": 8164137,
+              "friends_count": 12,
+              "listed_count": 6267,
+              "created_at": "Sun Nov 15 21:41:29 +0000 2015",
+              "favourites_count": 142924,
+              "utc_offset": null,
+              "time_zone": null,
+              "geo_enabled": true,
+              "verified": true,
+              "statuses_count": 10417,
+              "lang": null,
+              "contributors_enabled": false,
+              "is_translator": false,
+              "is_translation_enabled": false,
+              "profile_background_color": "000000",
+              "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+              "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+              "profile_background_tile": false,
+              "profile_image_url": "http://pbs.twimg.com/profile_images/1112594177961844736/qQK8NJT-_normal.jpg",
+              "profile_image_url_https": "https://pbs.twimg.com/profile_images/1112594177961844736/qQK8NJT-_normal.jpg",
+              "profile_banner_url": "https://pbs.twimg.com/profile_banners/4196983835/1560181807",
+              "profile_link_color": "F5ABB5",
+              "profile_sidebar_border_color": "000000",
+              "profile_sidebar_fill_color": "000000",
+              "profile_text_color": "000000",
+              "profile_use_background_image": false,
+              "has_extended_profile": false,
+              "default_profile": false,
+              "default_profile_image": false,
+              "following": false,
+              "follow_request_sent": false,
+              "notifications": false,
+              "translator_type": "none"
+          },
+          "geo": null,
+          "coordinates": null,
+          "place": null,
+          "contributors": null,
+          "is_quote_status": false,
+          "retweet_count": 41719,
+          "favorite_count": 184302,
+          "favorited": false,
+          "retweeted": false,
+          "possibly_sensitive": false,
+          "lang": "en"
+      },
+      "is_quote_status": false,
+      "retweet_count": 41719,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "lang": "en"
+  },
+  {
+      "created_at": "Mon Jun 24 12:59:18 +0000 2019",
+      "id": 1143141550639087616,
+      "id_str": "1143141550639087616",
+      "text": "gooooob morning. sometimes when the human is still asleep. i will quietly climb onto their face. and wait patiently… https://t.co/UtLfwKgGaH",
+      "truncated": true,
+      "entities": {
+          "hashtags": [],
+          "symbols": [],
+          "user_mentions": [],
+          "urls": [
+              {
+                  "url": "https://t.co/UtLfwKgGaH",
+                  "expanded_url": "https://twitter.com/i/web/status/1143141550639087616",
+                  "display_url": "twitter.com/i/web/status/1…",
+                  "indices": [
+                      117,
+                      140
+                  ]
+              }
+          ]
+      },
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+          "id": 846137120209190912,
+          "id_str": "846137120209190912",
+          "name": "Thoughts of Dog 🏳️\u200d🌈",
+          "screen_name": "dog_feelings",
+          "location": "",
+          "description": "2020 planner below ¨̮",
+          "url": "https://t.co/Sliao6j2kG",
+          "entities": {
+              "url": {
+                  "urls": [
+                      {
+                          "url": "https://t.co/Sliao6j2kG",
+                          "expanded_url": "http://publishing.andrewsmcmeel.com/catalog/detail?sku=9781524851040",
+                          "display_url": "publishing.andrewsmcmeel.com/catalog/detail…",
+                          "indices": [
+                              0,
+                              23
+                          ]
+                      }
+                  ]
+              },
+              "description": {
+                  "urls": []
+              }
+          },
+          "protected": false,
+          "followers_count": 2647223,
+          "friends_count": 2,
+          "listed_count": 3621,
+          "created_at": "Sun Mar 26 23:09:44 +0000 2017",
+          "favourites_count": 1512,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": false,
+          "verified": true,
+          "statuses_count": 939,
+          "lang": null,
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "F5F8FA",
+          "profile_background_image_url": null,
+          "profile_background_image_url_https": null,
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/1046968391389589507/_0r5bQLl_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/1046968391389589507/_0r5bQLl_normal.jpg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/846137120209190912/1560181980",
+          "profile_link_color": "1DA1F2",
+          "profile_sidebar_border_color": "C0DEED",
+          "profile_sidebar_fill_color": "DDEEF6",
+          "profile_text_color": "333333",
+          "profile_use_background_image": true,
+          "has_extended_profile": false,
+          "default_profile": true,
+          "default_profile_image": false,
+          "following": false,
+          "follow_request_sent": false,
+          "notifications": false,
+          "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 10573,
+      "favorite_count": 127109,
+      "favorited": false,
+      "retweeted": false,
+      "lang": "en"
+  },
+  {
+      "created_at": "Sat Jun 22 18:38:48 +0000 2019",
+      "id": 1142502211143925760,
+      "id_str": "1142502211143925760",
+      "text": "IT IS A BEAUTIFUL DAY. MY CONFIDENCE IS SOARING. GIVE ME MY LEASH I’LL WALK MYSELF. LOOK AT THESE HIPS SWAY",
+      "truncated": false,
+      "entities": {
+          "hashtags": [],
+          "symbols": [],
+          "user_mentions": [],
+          "urls": []
+      },
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+          "id": 846137120209190912,
+          "id_str": "846137120209190912",
+          "name": "Thoughts of Dog 🏳️\u200d🌈",
+          "screen_name": "dog_feelings",
+          "location": "",
+          "description": "2020 planner below ¨̮",
+          "url": "https://t.co/Sliao6j2kG",
+          "entities": {
+              "url": {
+                  "urls": [
+                      {
+                          "url": "https://t.co/Sliao6j2kG",
+                          "expanded_url": "http://publishing.andrewsmcmeel.com/catalog/detail?sku=9781524851040",
+                          "display_url": "publishing.andrewsmcmeel.com/catalog/detail…",
+                          "indices": [
+                              0,
+                              23
+                          ]
+                      }
+                  ]
+              },
+              "description": {
+                  "urls": []
+              }
+          },
+          "protected": false,
+          "followers_count": 2647223,
+          "friends_count": 2,
+          "listed_count": 3621,
+          "created_at": "Sun Mar 26 23:09:44 +0000 2017",
+          "favourites_count": 1512,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": false,
+          "verified": true,
+          "statuses_count": 939,
+          "lang": null,
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "F5F8FA",
+          "profile_background_image_url": null,
+          "profile_background_image_url_https": null,
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/1046968391389589507/_0r5bQLl_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/1046968391389589507/_0r5bQLl_normal.jpg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/846137120209190912/1560181980",
+          "profile_link_color": "1DA1F2",
+          "profile_sidebar_border_color": "C0DEED",
+          "profile_sidebar_fill_color": "DDEEF6",
+          "profile_text_color": "333333",
+          "profile_use_background_image": true,
+          "has_extended_profile": false,
+          "default_profile": true,
+          "default_profile_image": false,
+          "following": false,
+          "follow_request_sent": false,
+          "notifications": false,
+          "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 17888,
+      "favorite_count": 160414,
+      "favorited": false,
+      "retweeted": false,
+      "lang": "en"
+  },
+  {
+      "created_at": "Thu Jun 20 00:06:33 +0000 2019",
+      "id": 1141497530041061378,
+      "id_str": "1141497530041061378",
+      "text": "do not worry ronald. i’m on my way. and my stuffed fren sebastian. is coming with me https://t.co/QZttby5DnK",
+      "truncated": false,
+      "entities": {
+          "hashtags": [],
+          "symbols": [],
+          "user_mentions": [],
+          "urls": [
+              {
+                  "url": "https://t.co/QZttby5DnK",
+                  "expanded_url": "https://twitter.com/dog_rates/status/1141494673652903936",
+                  "display_url": "twitter.com/dog_rates/stat…",
+                  "indices": [
+                      85,
+                      108
+                  ]
+              }
+          ]
+      },
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+          "id": 846137120209190912,
+          "id_str": "846137120209190912",
+          "name": "Thoughts of Dog 🏳️\u200d🌈",
+          "screen_name": "dog_feelings",
+          "location": "",
+          "description": "2020 planner below ¨̮",
+          "url": "https://t.co/Sliao6j2kG",
+          "entities": {
+              "url": {
+                  "urls": [
+                      {
+                          "url": "https://t.co/Sliao6j2kG",
+                          "expanded_url": "http://publishing.andrewsmcmeel.com/catalog/detail?sku=9781524851040",
+                          "display_url": "publishing.andrewsmcmeel.com/catalog/detail…",
+                          "indices": [
+                              0,
+                              23
+                          ]
+                      }
+                  ]
+              },
+              "description": {
+                  "urls": []
+              }
+          },
+          "protected": false,
+          "followers_count": 2647223,
+          "friends_count": 2,
+          "listed_count": 3621,
+          "created_at": "Sun Mar 26 23:09:44 +0000 2017",
+          "favourites_count": 1512,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": false,
+          "verified": true,
+          "statuses_count": 939,
+          "lang": null,
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "F5F8FA",
+          "profile_background_image_url": null,
+          "profile_background_image_url_https": null,
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/1046968391389589507/_0r5bQLl_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/1046968391389589507/_0r5bQLl_normal.jpg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/846137120209190912/1560181980",
+          "profile_link_color": "1DA1F2",
+          "profile_sidebar_border_color": "C0DEED",
+          "profile_sidebar_fill_color": "DDEEF6",
+          "profile_text_color": "333333",
+          "profile_use_background_image": true,
+          "has_extended_profile": false,
+          "default_profile": true,
+          "default_profile_image": false,
+          "following": false,
+          "follow_request_sent": false,
+          "notifications": false,
+          "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": true,
+      "quoted_status_id": 1141494673652903936,
+      "quoted_status_id_str": "1141494673652903936",
+      "quoted_status": {
+          "created_at": "Wed Jun 19 23:55:12 +0000 2019",
+          "id": 1141494673652903936,
+          "id_str": "1141494673652903936",
+          "text": "This is Ron. He reserved the fountain for his pool party this evening but nobody showed up. Still hoping they’re on… https://t.co/WRYlrAcDKQ",
+          "truncated": true,
+          "entities": {
+              "hashtags": [],
+              "symbols": [],
+              "user_mentions": [],
+              "urls": [
+                  {
+                      "url": "https://t.co/WRYlrAcDKQ",
+                      "expanded_url": "https://twitter.com/i/web/status/1141494673652903936",
+                      "display_url": "twitter.com/i/web/status/1…",
+                      "indices": [
+                          117,
+                          140
+                      ]
+                  }
+              ]
+          },
+          "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+          "in_reply_to_status_id": null,
+          "in_reply_to_status_id_str": null,
+          "in_reply_to_user_id": null,
+          "in_reply_to_user_id_str": null,
+          "in_reply_to_screen_name": null,
+          "user": {
+              "id": 4196983835,
+              "id_str": "4196983835",
+              "name": "WeRateDogs™ 🏳️\u200d🌈",
+              "screen_name": "dog_rates",
+              "location": "「 DM YOUR DOGS 」",
+              "description": "Your Only Source For Professional Dog Ratings Instagram and Facebook ➪ WeRateDogs partnerships@weratedogs.com ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀",
+              "url": "https://t.co/N7sNNHSfPq",
+              "entities": {
+                  "url": {
+                      "urls": [
+                          {
+                              "url": "https://t.co/N7sNNHSfPq",
+                              "expanded_url": "http://weratedogs.com",
+                              "display_url": "weratedogs.com",
+                              "indices": [
+                                  0,
+                                  23
+                              ]
+                          }
+                      ]
+                  },
+                  "description": {
+                      "urls": []
+                  }
+              },
+              "protected": false,
+              "followers_count": 8164137,
+              "friends_count": 12,
+              "listed_count": 6267,
+              "created_at": "Sun Nov 15 21:41:29 +0000 2015",
+              "favourites_count": 142924,
+              "utc_offset": null,
+              "time_zone": null,
+              "geo_enabled": true,
+              "verified": true,
+              "statuses_count": 10417,
+              "lang": null,
+              "contributors_enabled": false,
+              "is_translator": false,
+              "is_translation_enabled": false,
+              "profile_background_color": "000000",
+              "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+              "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+              "profile_background_tile": false,
+              "profile_image_url": "http://pbs.twimg.com/profile_images/1112594177961844736/qQK8NJT-_normal.jpg",
+              "profile_image_url_https": "https://pbs.twimg.com/profile_images/1112594177961844736/qQK8NJT-_normal.jpg",
+              "profile_banner_url": "https://pbs.twimg.com/profile_banners/4196983835/1560181807",
+              "profile_link_color": "F5ABB5",
+              "profile_sidebar_border_color": "000000",
+              "profile_sidebar_fill_color": "000000",
+              "profile_text_color": "000000",
+              "profile_use_background_image": false,
+              "has_extended_profile": false,
+              "default_profile": false,
+              "default_profile_image": false,
+              "following": false,
+              "follow_request_sent": false,
+              "notifications": false,
+              "translator_type": "none"
+          },
+          "geo": null,
+          "coordinates": null,
+          "place": null,
+          "contributors": null,
+          "is_quote_status": false,
+          "retweet_count": 27616,
+          "favorite_count": 214710,
+          "favorited": false,
+          "retweeted": false,
+          "possibly_sensitive": false,
+          "lang": "en"
+      },
+      "retweet_count": 11237,
+      "favorite_count": 136301,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+  },
+  {
+      "created_at": "Wed Jun 19 02:56:36 +0000 2019",
+      "id": 1141177935249829888,
+      "id_str": "1141177935249829888",
+      "text": "so sorry to interrupt. but i hope all your dreams come true",
+      "truncated": false,
+      "entities": {
+          "hashtags": [],
+          "symbols": [],
+          "user_mentions": [],
+          "urls": []
+      },
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+          "id": 846137120209190912,
+          "id_str": "846137120209190912",
+          "name": "Thoughts of Dog 🏳️\u200d🌈",
+          "screen_name": "dog_feelings",
+          "location": "",
+          "description": "2020 planner below ¨̮",
+          "url": "https://t.co/Sliao6j2kG",
+          "entities": {
+              "url": {
+                  "urls": [
+                      {
+                          "url": "https://t.co/Sliao6j2kG",
+                          "expanded_url": "http://publishing.andrewsmcmeel.com/catalog/detail?sku=9781524851040",
+                          "display_url": "publishing.andrewsmcmeel.com/catalog/detail…",
+                          "indices": [
+                              0,
+                              23
+                          ]
+                      }
+                  ]
+              },
+              "description": {
+                  "urls": []
+              }
+          },
+          "protected": false,
+          "followers_count": 2647223,
+          "friends_count": 2,
+          "listed_count": 3621,
+          "created_at": "Sun Mar 26 23:09:44 +0000 2017",
+          "favourites_count": 1512,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": false,
+          "verified": true,
+          "statuses_count": 939,
+          "lang": null,
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "F5F8FA",
+          "profile_background_image_url": null,
+          "profile_background_image_url_https": null,
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/1046968391389589507/_0r5bQLl_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/1046968391389589507/_0r5bQLl_normal.jpg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/846137120209190912/1560181980",
+          "profile_link_color": "1DA1F2",
+          "profile_sidebar_border_color": "C0DEED",
+          "profile_sidebar_fill_color": "DDEEF6",
+          "profile_text_color": "333333",
+          "profile_use_background_image": true,
+          "has_extended_profile": false,
+          "default_profile": true,
+          "default_profile_image": false,
+          "following": false,
+          "follow_request_sent": false,
+          "notifications": false,
+          "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 38859,
+      "favorite_count": 186313,
+      "favorited": false,
+      "retweeted": false,
+      "lang": "en"
+  },
+  {
+      "created_at": "Mon Jun 17 17:31:40 +0000 2019",
+      "id": 1140673377880776704,
+      "id_str": "1140673377880776704",
+      "text": "the small neighbor human. has a big new toy in their yard. if you jump on it. you boumce. sometimes we jump at the… https://t.co/17eZwOxYXR",
+      "truncated": true,
+      "entities": {
+          "hashtags": [],
+          "symbols": [],
+          "user_mentions": [],
+          "urls": [
+              {
+                  "url": "https://t.co/17eZwOxYXR",
+                  "expanded_url": "https://twitter.com/i/web/status/1140673377880776704",
+                  "display_url": "twitter.com/i/web/status/1…",
+                  "indices": [
+                      116,
+                      139
+                  ]
+              }
+          ]
+      },
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+          "id": 846137120209190912,
+          "id_str": "846137120209190912",
+          "name": "Thoughts of Dog 🏳️\u200d🌈",
+          "screen_name": "dog_feelings",
+          "location": "",
+          "description": "2020 planner below ¨̮",
+          "url": "https://t.co/Sliao6j2kG",
+          "entities": {
+              "url": {
+                  "urls": [
+                      {
+                          "url": "https://t.co/Sliao6j2kG",
+                          "expanded_url": "http://publishing.andrewsmcmeel.com/catalog/detail?sku=9781524851040",
+                          "display_url": "publishing.andrewsmcmeel.com/catalog/detail…",
+                          "indices": [
+                              0,
+                              23
+                          ]
+                      }
+                  ]
+              },
+              "description": {
+                  "urls": []
+              }
+          },
+          "protected": false,
+          "followers_count": 2647223,
+          "friends_count": 2,
+          "listed_count": 3621,
+          "created_at": "Sun Mar 26 23:09:44 +0000 2017",
+          "favourites_count": 1512,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": false,
+          "verified": true,
+          "statuses_count": 939,
+          "lang": null,
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "F5F8FA",
+          "profile_background_image_url": null,
+          "profile_background_image_url_https": null,
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/1046968391389589507/_0r5bQLl_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/1046968391389589507/_0r5bQLl_normal.jpg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/846137120209190912/1560181980",
+          "profile_link_color": "1DA1F2",
+          "profile_sidebar_border_color": "C0DEED",
+          "profile_sidebar_fill_color": "DDEEF6",
+          "profile_text_color": "333333",
+          "profile_use_background_image": true,
+          "has_extended_profile": false,
+          "default_profile": true,
+          "default_profile_image": false,
+          "following": false,
+          "follow_request_sent": false,
+          "notifications": false,
+          "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 9916,
+      "favorite_count": 124296,
+      "favorited": false,
+      "retweeted": false,
+      "lang": "en"
+  },
+  {
+      "created_at": "Thu Jun 13 01:44:45 +0000 2019",
+      "id": 1138985525224718336,
+      "id_str": "1138985525224718336",
+      "text": "all i need right now. is to rest my chin. in the palm of your hand. sometimes my noggin gets heavy. probably from all the knowledge",
+      "truncated": false,
+      "entities": {
+          "hashtags": [],
+          "symbols": [],
+          "user_mentions": [],
+          "urls": []
+      },
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+          "id": 846137120209190912,
+          "id_str": "846137120209190912",
+          "name": "Thoughts of Dog 🏳️\u200d🌈",
+          "screen_name": "dog_feelings",
+          "location": "",
+          "description": "2020 planner below ¨̮",
+          "url": "https://t.co/Sliao6j2kG",
+          "entities": {
+              "url": {
+                  "urls": [
+                      {
+                          "url": "https://t.co/Sliao6j2kG",
+                          "expanded_url": "http://publishing.andrewsmcmeel.com/catalog/detail?sku=9781524851040",
+                          "display_url": "publishing.andrewsmcmeel.com/catalog/detail…",
+                          "indices": [
+                              0,
+                              23
+                          ]
+                      }
+                  ]
+              },
+              "description": {
+                  "urls": []
+              }
+          },
+          "protected": false,
+          "followers_count": 2647223,
+          "friends_count": 2,
+          "listed_count": 3621,
+          "created_at": "Sun Mar 26 23:09:44 +0000 2017",
+          "favourites_count": 1512,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": false,
+          "verified": true,
+          "statuses_count": 939,
+          "lang": null,
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "F5F8FA",
+          "profile_background_image_url": null,
+          "profile_background_image_url_https": null,
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/1046968391389589507/_0r5bQLl_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/1046968391389589507/_0r5bQLl_normal.jpg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/846137120209190912/1560181980",
+          "profile_link_color": "1DA1F2",
+          "profile_sidebar_border_color": "C0DEED",
+          "profile_sidebar_fill_color": "DDEEF6",
+          "profile_text_color": "333333",
+          "profile_use_background_image": true,
+          "has_extended_profile": false,
+          "default_profile": true,
+          "default_profile_image": false,
+          "following": false,
+          "follow_request_sent": false,
+          "notifications": false,
+          "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 17598,
+      "favorite_count": 165985,
+      "favorited": false,
+      "retweeted": false,
+      "lang": "en"
+  },
+  {
+      "created_at": "Tue Jun 11 16:32:20 +0000 2019",
+      "id": 1138484120382656512,
+      "id_str": "1138484120382656512",
+      "text": "i forgot to say. one at a time https://t.co/tgXAUEB93L",
+      "truncated": false,
+      "entities": {
+          "hashtags": [],
+          "symbols": [],
+          "user_mentions": [],
+          "urls": [
+              {
+                  "url": "https://t.co/tgXAUEB93L",
+                  "expanded_url": "https://twitter.com/aguatemalanward/status/1138481714559242240",
+                  "display_url": "twitter.com/aguatemalanwar…",
+                  "indices": [
+                      31,
+                      54
+                  ]
+              }
+          ]
+      },
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+          "id": 846137120209190912,
+          "id_str": "846137120209190912",
+          "name": "Thoughts of Dog 🏳️\u200d🌈",
+          "screen_name": "dog_feelings",
+          "location": "",
+          "description": "2020 planner below ¨̮",
+          "url": "https://t.co/Sliao6j2kG",
+          "entities": {
+              "url": {
+                  "urls": [
+                      {
+                          "url": "https://t.co/Sliao6j2kG",
+                          "expanded_url": "http://publishing.andrewsmcmeel.com/catalog/detail?sku=9781524851040",
+                          "display_url": "publishing.andrewsmcmeel.com/catalog/detail…",
+                          "indices": [
+                              0,
+                              23
+                          ]
+                      }
+                  ]
+              },
+              "description": {
+                  "urls": []
+              }
+          },
+          "protected": false,
+          "followers_count": 2647223,
+          "friends_count": 2,
+          "listed_count": 3621,
+          "created_at": "Sun Mar 26 23:09:44 +0000 2017",
+          "favourites_count": 1512,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": false,
+          "verified": true,
+          "statuses_count": 939,
+          "lang": null,
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "F5F8FA",
+          "profile_background_image_url": null,
+          "profile_background_image_url_https": null,
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/1046968391389589507/_0r5bQLl_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/1046968391389589507/_0r5bQLl_normal.jpg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/846137120209190912/1560181980",
+          "profile_link_color": "1DA1F2",
+          "profile_sidebar_border_color": "C0DEED",
+          "profile_sidebar_fill_color": "DDEEF6",
+          "profile_text_color": "333333",
+          "profile_use_background_image": true,
+          "has_extended_profile": false,
+          "default_profile": true,
+          "default_profile_image": false,
+          "following": false,
+          "follow_request_sent": false,
+          "notifications": false,
+          "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": true,
+      "quoted_status_id": 1138481714559242240,
+      "quoted_status_id_str": "1138481714559242240",
+      "quoted_status": {
+          "created_at": "Tue Jun 11 16:22:47 +0000 2019",
+          "id": 1138481714559242240,
+          "id_str": "1138481714559242240",
+          "text": "@dog_feelings @AndrewsMcMeel We crashed the website 😬",
+          "truncated": false,
+          "entities": {
+              "hashtags": [],
+              "symbols": [],
+              "user_mentions": [
+                  {
+                      "screen_name": "dog_feelings",
+                      "name": "Thoughts of Dog 🏳️\u200d🌈",
+                      "id": 846137120209190912,
+                      "id_str": "846137120209190912",
+                      "indices": [
+                          0,
+                          13
+                      ]
+                  },
+                  {
+                      "screen_name": "AndrewsMcMeel",
+                      "name": "Andrews McMeel",
+                      "id": 16910232,
+                      "id_str": "16910232",
+                      "indices": [
+                          14,
+                          28
+                      ]
+                  }
+              ],
+              "urls": []
+          },
+          "source": "<a href=\"http://twitter.com/#!/download/ipad\" rel=\"nofollow\">Twitter for iPad</a>",
+          "in_reply_to_status_id": 1138480052922753024,
+          "in_reply_to_status_id_str": "1138480052922753024",
+          "in_reply_to_user_id": 846137120209190912,
+          "in_reply_to_user_id_str": "846137120209190912",
+          "in_reply_to_screen_name": "dog_feelings",
+          "user": {
+              "id": 1206345410,
+              "id_str": "1206345410",
+              "name": "M. Ward",
+              "screen_name": "aguatemalanward",
+              "location": "",
+              "description": "Mayan/Spanish. Si se puede! Thriving despite chronic pain. Dog mom. Cat mom. Trans ally.",
+              "url": null,
+              "entities": {
+                  "description": {
+                      "urls": []
+                  }
+              },
+              "protected": false,
+              "followers_count": 118,
+              "friends_count": 542,
+              "listed_count": 1,
+              "created_at": "Fri Feb 22 00:14:13 +0000 2013",
+              "favourites_count": 34756,
+              "utc_offset": null,
+              "time_zone": null,
+              "geo_enabled": true,
+              "verified": false,
+              "statuses_count": 3905,
+              "lang": null,
+              "contributors_enabled": false,
+              "is_translator": false,
+              "is_translation_enabled": false,
+              "profile_background_color": "C0DEED",
+              "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+              "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+              "profile_background_tile": false,
+              "profile_image_url": "http://pbs.twimg.com/profile_images/1101364770379247616/u6Cx2VUV_normal.jpg",
+              "profile_image_url_https": "https://pbs.twimg.com/profile_images/1101364770379247616/u6Cx2VUV_normal.jpg",
+              "profile_banner_url": "https://pbs.twimg.com/profile_banners/1206345410/1551420799",
+              "profile_link_color": "1DA1F2",
+              "profile_sidebar_border_color": "C0DEED",
+              "profile_sidebar_fill_color": "DDEEF6",
+              "profile_text_color": "333333",
+              "profile_use_background_image": true,
+              "has_extended_profile": true,
+              "default_profile": true,
+              "default_profile_image": false,
+              "following": false,
+              "follow_request_sent": false,
+              "notifications": false,
+              "translator_type": "none"
+          },
+          "geo": null,
+          "coordinates": null,
+          "place": null,
+          "contributors": null,
+          "is_quote_status": false,
+          "retweet_count": 9,
+          "favorite_count": 1234,
+          "favorited": false,
+          "retweeted": false,
+          "lang": "en"
+      },
+      "retweet_count": 550,
+      "favorite_count": 22432,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+  },
+  {
+      "created_at": "Tue Jun 11 16:16:11 +0000 2019",
+      "id": 1138480052922753024,
+      "id_str": "1138480052922753024",
+      "text": "i’m going to help you stay calm. and very organized. for 16 whole months. my planner is available now… https://t.co/FjX9hr6bzT",
+      "truncated": true,
+      "entities": {
+          "hashtags": [],
+          "symbols": [],
+          "user_mentions": [],
+          "urls": [
+              {
+                  "url": "https://t.co/FjX9hr6bzT",
+                  "expanded_url": "https://twitter.com/i/web/status/1138480052922753024",
+                  "display_url": "twitter.com/i/web/status/1…",
+                  "indices": [
+                      103,
+                      126
+                  ]
+              }
+          ]
+      },
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "in_reply_to_status_id": 1138479262145568768,
+      "in_reply_to_status_id_str": "1138479262145568768",
+      "in_reply_to_user_id": 846137120209190912,
+      "in_reply_to_user_id_str": "846137120209190912",
+      "in_reply_to_screen_name": "dog_feelings",
+      "user": {
+          "id": 846137120209190912,
+          "id_str": "846137120209190912",
+          "name": "Thoughts of Dog 🏳️\u200d🌈",
+          "screen_name": "dog_feelings",
+          "location": "",
+          "description": "2020 planner below ¨̮",
+          "url": "https://t.co/Sliao6j2kG",
+          "entities": {
+              "url": {
+                  "urls": [
+                      {
+                          "url": "https://t.co/Sliao6j2kG",
+                          "expanded_url": "http://publishing.andrewsmcmeel.com/catalog/detail?sku=9781524851040",
+                          "display_url": "publishing.andrewsmcmeel.com/catalog/detail…",
+                          "indices": [
+                              0,
+                              23
+                          ]
+                      }
+                  ]
+              },
+              "description": {
+                  "urls": []
+              }
+          },
+          "protected": false,
+          "followers_count": 2647223,
+          "friends_count": 2,
+          "listed_count": 3621,
+          "created_at": "Sun Mar 26 23:09:44 +0000 2017",
+          "favourites_count": 1512,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": false,
+          "verified": true,
+          "statuses_count": 939,
+          "lang": null,
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "F5F8FA",
+          "profile_background_image_url": null,
+          "profile_background_image_url_https": null,
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/1046968391389589507/_0r5bQLl_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/1046968391389589507/_0r5bQLl_normal.jpg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/846137120209190912/1560181980",
+          "profile_link_color": "1DA1F2",
+          "profile_sidebar_border_color": "C0DEED",
+          "profile_sidebar_fill_color": "DDEEF6",
+          "profile_text_color": "333333",
+          "profile_use_background_image": true,
+          "has_extended_profile": false,
+          "default_profile": true,
+          "default_profile_image": false,
+          "following": false,
+          "follow_request_sent": false,
+          "notifications": false,
+          "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 4358,
+      "favorite_count": 60303,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+  },
+  {
+      "created_at": "Tue Jun 11 16:13:02 +0000 2019",
+      "id": 1138479262145568768,
+      "id_str": "1138479262145568768",
+      "text": "i have an announcement",
+      "truncated": false,
+      "entities": {
+          "hashtags": [],
+          "symbols": [],
+          "user_mentions": [],
+          "urls": []
+      },
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+          "id": 846137120209190912,
+          "id_str": "846137120209190912",
+          "name": "Thoughts of Dog 🏳️\u200d🌈",
+          "screen_name": "dog_feelings",
+          "location": "",
+          "description": "2020 planner below ¨̮",
+          "url": "https://t.co/Sliao6j2kG",
+          "entities": {
+              "url": {
+                  "urls": [
+                      {
+                          "url": "https://t.co/Sliao6j2kG",
+                          "expanded_url": "http://publishing.andrewsmcmeel.com/catalog/detail?sku=9781524851040",
+                          "display_url": "publishing.andrewsmcmeel.com/catalog/detail…",
+                          "indices": [
+                              0,
+                              23
+                          ]
+                      }
+                  ]
+              },
+              "description": {
+                  "urls": []
+              }
+          },
+          "protected": false,
+          "followers_count": 2647223,
+          "friends_count": 2,
+          "listed_count": 3621,
+          "created_at": "Sun Mar 26 23:09:44 +0000 2017",
+          "favourites_count": 1512,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": false,
+          "verified": true,
+          "statuses_count": 939,
+          "lang": null,
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "F5F8FA",
+          "profile_background_image_url": null,
+          "profile_background_image_url_https": null,
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/1046968391389589507/_0r5bQLl_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/1046968391389589507/_0r5bQLl_normal.jpg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/846137120209190912/1560181980",
+          "profile_link_color": "1DA1F2",
+          "profile_sidebar_border_color": "C0DEED",
+          "profile_sidebar_fill_color": "DDEEF6",
+          "profile_text_color": "333333",
+          "profile_use_background_image": true,
+          "has_extended_profile": false,
+          "default_profile": true,
+          "default_profile_image": false,
+          "following": false,
+          "follow_request_sent": false,
+          "notifications": false,
+          "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 819,
+      "favorite_count": 32376,
+      "favorited": false,
+      "retweeted": false,
+      "lang": "en"
+  }
+]

@@ -1,0 +1,957 @@
+[
+  {
+      "created_at": "Tue Jun 25 19:41:39 +0000 2019",
+      "id": 1143605190504976386,
+      "id_str": "1143605190504976386",
+      "text": "@glye I don't know. Maybe @mkrtxt can advice?",
+      "truncated": false,
+      "entities": {
+          "hashtags": [],
+          "symbols": [],
+          "user_mentions": [
+              {
+                  "screen_name": "glye",
+                  "name": "Gunnstein R'Lyeh 🌍🚴\u200d♂️",
+                  "id": 60271012,
+                  "id_str": "60271012",
+                  "indices": [
+                      0,
+                      5
+                  ]
+              },
+              {
+                  "screen_name": "mkrtxt",
+                  "name": "mikrotext",
+                  "id": 1178537556,
+                  "id_str": "1178537556",
+                  "indices": [
+                      26,
+                      33
+                  ]
+              }
+          ],
+          "urls": []
+      },
+      "source": "<a href=\"https://www.hootsuite.com\" rel=\"nofollow\">Hootsuite Inc.</a>",
+      "in_reply_to_status_id": 1143585241820540930,
+      "in_reply_to_status_id_str": "1143585241820540930",
+      "in_reply_to_user_id": 60271012,
+      "in_reply_to_user_id_str": "60271012",
+      "in_reply_to_screen_name": "glye",
+      "user": {
+          "id": 1376608884,
+          "id_str": "1376608884",
+          "name": "Micro SF/F stories",
+          "screen_name": "MicroSFF",
+          "location": "England",
+          "description": "Very short science fiction/fantasy stories by O. Westin. Please RT any you like.\nBook: https://t.co/utkBev93up\nPatreon: https://t.co/P5OoD3Q842",
+          "url": "http://t.co/uDjyUq5q7X",
+          "entities": {
+              "url": {
+                  "urls": [
+                      {
+                          "url": "http://t.co/uDjyUq5q7X",
+                          "expanded_url": "http://microsff.tumblr.com/",
+                          "display_url": "microsff.tumblr.com",
+                          "indices": [
+                              0,
+                              22
+                          ]
+                      }
+                  ]
+              },
+              "description": {
+                  "urls": [
+                      {
+                          "url": "https://t.co/utkBev93up",
+                          "expanded_url": "http://microsff.tumblr.com/book",
+                          "display_url": "microsff.tumblr.com/book",
+                          "indices": [
+                              87,
+                              110
+                          ]
+                      },
+                      {
+                          "url": "https://t.co/P5OoD3Q842",
+                          "expanded_url": "https://www.patreon.com/microsff",
+                          "display_url": "patreon.com/microsff",
+                          "indices": [
+                              120,
+                              143
+                          ]
+                      }
+                  ]
+              }
+          },
+          "protected": false,
+          "followers_count": 75206,
+          "friends_count": 105,
+          "listed_count": 1161,
+          "created_at": "Wed Apr 24 09:42:38 +0000 2013",
+          "favourites_count": 260,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": false,
+          "verified": false,
+          "statuses_count": 8878,
+          "lang": null,
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "C0DEED",
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/522520775002058752/ZD7KK74G_normal.jpeg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/522520775002058752/ZD7KK74G_normal.jpeg",
+          "profile_link_color": "1DA1F2",
+          "profile_sidebar_border_color": "C0DEED",
+          "profile_sidebar_fill_color": "DDEEF6",
+          "profile_text_color": "333333",
+          "profile_use_background_image": true,
+          "has_extended_profile": false,
+          "default_profile": true,
+          "default_profile_image": false,
+          "following": false,
+          "follow_request_sent": false,
+          "notifications": false,
+          "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 0,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "lang": "en"
+  },
+  {
+      "created_at": "Tue Jun 25 17:49:33 +0000 2019",
+      "id": 1143576980555739136,
+      "id_str": "1143576980555739136",
+      "text": "A spaceship landed and opened its cargo doors. Hundreds, thousands, millions, billions of ghosts emerged.\n\"Your pla… https://t.co/DQcvxoW93S",
+      "truncated": true,
+      "entities": {
+          "hashtags": [],
+          "symbols": [],
+          "user_mentions": [],
+          "urls": [
+              {
+                  "url": "https://t.co/DQcvxoW93S",
+                  "expanded_url": "https://twitter.com/i/web/status/1143576980555739136",
+                  "display_url": "twitter.com/i/web/status/1…",
+                  "indices": [
+                      117,
+                      140
+                  ]
+              }
+          ]
+      },
+      "source": "<a href=\"https://www.hootsuite.com\" rel=\"nofollow\">Hootsuite Inc.</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+          "id": 1376608884,
+          "id_str": "1376608884",
+          "name": "Micro SF/F stories",
+          "screen_name": "MicroSFF",
+          "location": "England",
+          "description": "Very short science fiction/fantasy stories by O. Westin. Please RT any you like.\nBook: https://t.co/utkBev93up\nPatreon: https://t.co/P5OoD3Q842",
+          "url": "http://t.co/uDjyUq5q7X",
+          "entities": {
+              "url": {
+                  "urls": [
+                      {
+                          "url": "http://t.co/uDjyUq5q7X",
+                          "expanded_url": "http://microsff.tumblr.com/",
+                          "display_url": "microsff.tumblr.com",
+                          "indices": [
+                              0,
+                              22
+                          ]
+                      }
+                  ]
+              },
+              "description": {
+                  "urls": [
+                      {
+                          "url": "https://t.co/utkBev93up",
+                          "expanded_url": "http://microsff.tumblr.com/book",
+                          "display_url": "microsff.tumblr.com/book",
+                          "indices": [
+                              87,
+                              110
+                          ]
+                      },
+                      {
+                          "url": "https://t.co/P5OoD3Q842",
+                          "expanded_url": "https://www.patreon.com/microsff",
+                          "display_url": "patreon.com/microsff",
+                          "indices": [
+                              120,
+                              143
+                          ]
+                      }
+                  ]
+              }
+          },
+          "protected": false,
+          "followers_count": 75206,
+          "friends_count": 105,
+          "listed_count": 1161,
+          "created_at": "Wed Apr 24 09:42:38 +0000 2013",
+          "favourites_count": 260,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": false,
+          "verified": false,
+          "statuses_count": 8878,
+          "lang": null,
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "C0DEED",
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/522520775002058752/ZD7KK74G_normal.jpeg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/522520775002058752/ZD7KK74G_normal.jpeg",
+          "profile_link_color": "1DA1F2",
+          "profile_sidebar_border_color": "C0DEED",
+          "profile_sidebar_fill_color": "DDEEF6",
+          "profile_text_color": "333333",
+          "profile_use_background_image": true,
+          "has_extended_profile": false,
+          "default_profile": true,
+          "default_profile_image": false,
+          "following": false,
+          "follow_request_sent": false,
+          "notifications": false,
+          "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 129,
+      "favorite_count": 528,
+      "favorited": false,
+      "retweeted": false,
+      "lang": "en"
+  },
+  {
+      "created_at": "Tue Jun 25 14:01:19 +0000 2019",
+      "id": 1143519542326550529,
+      "id_str": "1143519542326550529",
+      "text": "** Nobody knows Amazon's algorithms and category sorting, but I'm really happy to see this book at #58 in \"Humourou… https://t.co/L7JHlc2vXI",
+      "truncated": true,
+      "entities": {
+          "hashtags": [],
+          "symbols": [],
+          "user_mentions": [],
+          "urls": [
+              {
+                  "url": "https://t.co/L7JHlc2vXI",
+                  "expanded_url": "https://twitter.com/i/web/status/1143519542326550529",
+                  "display_url": "twitter.com/i/web/status/1…",
+                  "indices": [
+                      117,
+                      140
+                  ]
+              }
+          ]
+      },
+      "source": "<a href=\"https://www.hootsuite.com\" rel=\"nofollow\">Hootsuite Inc.</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+          "id": 1376608884,
+          "id_str": "1376608884",
+          "name": "Micro SF/F stories",
+          "screen_name": "MicroSFF",
+          "location": "England",
+          "description": "Very short science fiction/fantasy stories by O. Westin. Please RT any you like.\nBook: https://t.co/utkBev93up\nPatreon: https://t.co/P5OoD3Q842",
+          "url": "http://t.co/uDjyUq5q7X",
+          "entities": {
+              "url": {
+                  "urls": [
+                      {
+                          "url": "http://t.co/uDjyUq5q7X",
+                          "expanded_url": "http://microsff.tumblr.com/",
+                          "display_url": "microsff.tumblr.com",
+                          "indices": [
+                              0,
+                              22
+                          ]
+                      }
+                  ]
+              },
+              "description": {
+                  "urls": [
+                      {
+                          "url": "https://t.co/utkBev93up",
+                          "expanded_url": "http://microsff.tumblr.com/book",
+                          "display_url": "microsff.tumblr.com/book",
+                          "indices": [
+                              87,
+                              110
+                          ]
+                      },
+                      {
+                          "url": "https://t.co/P5OoD3Q842",
+                          "expanded_url": "https://www.patreon.com/microsff",
+                          "display_url": "patreon.com/microsff",
+                          "indices": [
+                              120,
+                              143
+                          ]
+                      }
+                  ]
+              }
+          },
+          "protected": false,
+          "followers_count": 75206,
+          "friends_count": 105,
+          "listed_count": 1161,
+          "created_at": "Wed Apr 24 09:42:38 +0000 2013",
+          "favourites_count": 260,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": false,
+          "verified": false,
+          "statuses_count": 8878,
+          "lang": null,
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "C0DEED",
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/522520775002058752/ZD7KK74G_normal.jpeg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/522520775002058752/ZD7KK74G_normal.jpeg",
+          "profile_link_color": "1DA1F2",
+          "profile_sidebar_border_color": "C0DEED",
+          "profile_sidebar_fill_color": "DDEEF6",
+          "profile_text_color": "333333",
+          "profile_use_background_image": true,
+          "has_extended_profile": false,
+          "default_profile": true,
+          "default_profile_image": false,
+          "following": false,
+          "follow_request_sent": false,
+          "notifications": false,
+          "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": true,
+      "quoted_status_id": 1143180370541776896,
+      "quoted_status_id_str": "1143180370541776896",
+      "quoted_status": {
+          "created_at": "Mon Jun 24 15:33:34 +0000 2019",
+          "id": 1143180370541776896,
+          "id_str": "1143180370541776896",
+          "text": "** English:\nPaperback and ebook from Amazon https://t.co/SATSJdAcR3\nEbook also available from Kobo, Apple, Google,… https://t.co/7c9olRCD4s",
+          "truncated": true,
+          "entities": {
+              "hashtags": [],
+              "symbols": [],
+              "user_mentions": [],
+              "urls": [
+                  {
+                      "url": "https://t.co/SATSJdAcR3",
+                      "expanded_url": "https://www.amazon.com/gp/product/B07RHZF7CV",
+                      "display_url": "amazon.com/gp/product/B07…",
+                      "indices": [
+                          44,
+                          67
+                      ]
+                  },
+                  {
+                      "url": "https://t.co/7c9olRCD4s",
+                      "expanded_url": "https://twitter.com/i/web/status/1143180370541776896",
+                      "display_url": "twitter.com/i/web/status/1…",
+                      "indices": [
+                          116,
+                          139
+                      ]
+                  }
+              ]
+          },
+          "source": "<a href=\"https://www.hootsuite.com\" rel=\"nofollow\">Hootsuite Inc.</a>",
+          "in_reply_to_status_id": 1143176865693229056,
+          "in_reply_to_status_id_str": "1143176865693229056",
+          "in_reply_to_user_id": 1376608884,
+          "in_reply_to_user_id_str": "1376608884",
+          "in_reply_to_screen_name": "MicroSFF",
+          "user": {
+              "id": 1376608884,
+              "id_str": "1376608884",
+              "name": "Micro SF/F stories",
+              "screen_name": "MicroSFF",
+              "location": "England",
+              "description": "Very short science fiction/fantasy stories by O. Westin. Please RT any you like.\nBook: https://t.co/utkBev93up\nPatreon: https://t.co/P5OoD3Q842",
+              "url": "http://t.co/uDjyUq5q7X",
+              "entities": {
+                  "url": {
+                      "urls": [
+                          {
+                              "url": "http://t.co/uDjyUq5q7X",
+                              "expanded_url": "http://microsff.tumblr.com/",
+                              "display_url": "microsff.tumblr.com",
+                              "indices": [
+                                  0,
+                                  22
+                              ]
+                          }
+                      ]
+                  },
+                  "description": {
+                      "urls": [
+                          {
+                              "url": "https://t.co/utkBev93up",
+                              "expanded_url": "http://microsff.tumblr.com/book",
+                              "display_url": "microsff.tumblr.com/book",
+                              "indices": [
+                                  87,
+                                  110
+                              ]
+                          },
+                          {
+                              "url": "https://t.co/P5OoD3Q842",
+                              "expanded_url": "https://www.patreon.com/microsff",
+                              "display_url": "patreon.com/microsff",
+                              "indices": [
+                                  120,
+                                  143
+                              ]
+                          }
+                      ]
+                  }
+              },
+              "protected": false,
+              "followers_count": 75206,
+              "friends_count": 105,
+              "listed_count": 1161,
+              "created_at": "Wed Apr 24 09:42:38 +0000 2013",
+              "favourites_count": 260,
+              "utc_offset": null,
+              "time_zone": null,
+              "geo_enabled": false,
+              "verified": false,
+              "statuses_count": 8878,
+              "lang": null,
+              "contributors_enabled": false,
+              "is_translator": false,
+              "is_translation_enabled": false,
+              "profile_background_color": "C0DEED",
+              "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+              "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+              "profile_background_tile": false,
+              "profile_image_url": "http://pbs.twimg.com/profile_images/522520775002058752/ZD7KK74G_normal.jpeg",
+              "profile_image_url_https": "https://pbs.twimg.com/profile_images/522520775002058752/ZD7KK74G_normal.jpeg",
+              "profile_link_color": "1DA1F2",
+              "profile_sidebar_border_color": "C0DEED",
+              "profile_sidebar_fill_color": "DDEEF6",
+              "profile_text_color": "333333",
+              "profile_use_background_image": true,
+              "has_extended_profile": false,
+              "default_profile": true,
+              "default_profile_image": false,
+              "following": false,
+              "follow_request_sent": false,
+              "notifications": false,
+              "translator_type": "none"
+          },
+          "geo": null,
+          "coordinates": null,
+          "place": null,
+          "contributors": null,
+          "is_quote_status": false,
+          "retweet_count": 9,
+          "favorite_count": 31,
+          "favorited": false,
+          "retweeted": false,
+          "possibly_sensitive": false,
+          "lang": "en"
+      },
+      "retweet_count": 14,
+      "favorite_count": 55,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+  },
+  {
+      "created_at": "Mon Jun 24 20:48:31 +0000 2019",
+      "id": 1143259630488961024,
+      "id_str": "1143259630488961024",
+      "text": "@CamestrosF Don't sell yourself short, you're at least millifictional!",
+      "truncated": false,
+      "entities": {
+          "hashtags": [],
+          "symbols": [],
+          "user_mentions": [
+              {
+                  "screen_name": "CamestrosF",
+                  "name": "Camestros Felapton",
+                  "id": 3314031146,
+                  "id_str": "3314031146",
+                  "indices": [
+                      0,
+                      11
+                  ]
+              }
+          ],
+          "urls": []
+      },
+      "source": "<a href=\"https://www.hootsuite.com\" rel=\"nofollow\">Hootsuite Inc.</a>",
+      "in_reply_to_status_id": 1143258381508939776,
+      "in_reply_to_status_id_str": "1143258381508939776",
+      "in_reply_to_user_id": 3314031146,
+      "in_reply_to_user_id_str": "3314031146",
+      "in_reply_to_screen_name": "CamestrosF",
+      "user": {
+          "id": 1376608884,
+          "id_str": "1376608884",
+          "name": "Micro SF/F stories",
+          "screen_name": "MicroSFF",
+          "location": "England",
+          "description": "Very short science fiction/fantasy stories by O. Westin. Please RT any you like.\nBook: https://t.co/utkBev93up\nPatreon: https://t.co/P5OoD3Q842",
+          "url": "http://t.co/uDjyUq5q7X",
+          "entities": {
+              "url": {
+                  "urls": [
+                      {
+                          "url": "http://t.co/uDjyUq5q7X",
+                          "expanded_url": "http://microsff.tumblr.com/",
+                          "display_url": "microsff.tumblr.com",
+                          "indices": [
+                              0,
+                              22
+                          ]
+                      }
+                  ]
+              },
+              "description": {
+                  "urls": [
+                      {
+                          "url": "https://t.co/utkBev93up",
+                          "expanded_url": "http://microsff.tumblr.com/book",
+                          "display_url": "microsff.tumblr.com/book",
+                          "indices": [
+                              87,
+                              110
+                          ]
+                      },
+                      {
+                          "url": "https://t.co/P5OoD3Q842",
+                          "expanded_url": "https://www.patreon.com/microsff",
+                          "display_url": "patreon.com/microsff",
+                          "indices": [
+                              120,
+                              143
+                          ]
+                      }
+                  ]
+              }
+          },
+          "protected": false,
+          "followers_count": 75206,
+          "friends_count": 105,
+          "listed_count": 1161,
+          "created_at": "Wed Apr 24 09:42:38 +0000 2013",
+          "favourites_count": 260,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": false,
+          "verified": false,
+          "statuses_count": 8878,
+          "lang": null,
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "C0DEED",
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/522520775002058752/ZD7KK74G_normal.jpeg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/522520775002058752/ZD7KK74G_normal.jpeg",
+          "profile_link_color": "1DA1F2",
+          "profile_sidebar_border_color": "C0DEED",
+          "profile_sidebar_fill_color": "DDEEF6",
+          "profile_text_color": "333333",
+          "profile_use_background_image": true,
+          "has_extended_profile": false,
+          "default_profile": true,
+          "default_profile_image": false,
+          "following": false,
+          "follow_request_sent": false,
+          "notifications": false,
+          "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 0,
+      "favorite_count": 2,
+      "favorited": false,
+      "retweeted": false,
+      "lang": "en"
+  },
+  {
+      "created_at": "Mon Jun 24 20:40:41 +0000 2019",
+      "id": 1143257658117558272,
+      "id_str": "1143257658117558272",
+      "text": "** If you want a summary of the book, and examples of the stories in it, check out this review. **\nhttps://t.co/6Qba6AWqOJ",
+      "truncated": false,
+      "entities": {
+          "hashtags": [],
+          "symbols": [],
+          "user_mentions": [],
+          "urls": [
+              {
+                  "url": "https://t.co/6Qba6AWqOJ",
+                  "expanded_url": "https://twitter.com/CamestrosF/status/1142529249049554950",
+                  "display_url": "twitter.com/CamestrosF/sta…",
+                  "indices": [
+                      99,
+                      122
+                  ]
+              }
+          ]
+      },
+      "source": "<a href=\"https://www.hootsuite.com\" rel=\"nofollow\">Hootsuite Inc.</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+          "id": 1376608884,
+          "id_str": "1376608884",
+          "name": "Micro SF/F stories",
+          "screen_name": "MicroSFF",
+          "location": "England",
+          "description": "Very short science fiction/fantasy stories by O. Westin. Please RT any you like.\nBook: https://t.co/utkBev93up\nPatreon: https://t.co/P5OoD3Q842",
+          "url": "http://t.co/uDjyUq5q7X",
+          "entities": {
+              "url": {
+                  "urls": [
+                      {
+                          "url": "http://t.co/uDjyUq5q7X",
+                          "expanded_url": "http://microsff.tumblr.com/",
+                          "display_url": "microsff.tumblr.com",
+                          "indices": [
+                              0,
+                              22
+                          ]
+                      }
+                  ]
+              },
+              "description": {
+                  "urls": [
+                      {
+                          "url": "https://t.co/utkBev93up",
+                          "expanded_url": "http://microsff.tumblr.com/book",
+                          "display_url": "microsff.tumblr.com/book",
+                          "indices": [
+                              87,
+                              110
+                          ]
+                      },
+                      {
+                          "url": "https://t.co/P5OoD3Q842",
+                          "expanded_url": "https://www.patreon.com/microsff",
+                          "display_url": "patreon.com/microsff",
+                          "indices": [
+                              120,
+                              143
+                          ]
+                      }
+                  ]
+              }
+          },
+          "protected": false,
+          "followers_count": 75206,
+          "friends_count": 105,
+          "listed_count": 1161,
+          "created_at": "Wed Apr 24 09:42:38 +0000 2013",
+          "favourites_count": 260,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": false,
+          "verified": false,
+          "statuses_count": 8878,
+          "lang": null,
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "C0DEED",
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/522520775002058752/ZD7KK74G_normal.jpeg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/522520775002058752/ZD7KK74G_normal.jpeg",
+          "profile_link_color": "1DA1F2",
+          "profile_sidebar_border_color": "C0DEED",
+          "profile_sidebar_fill_color": "DDEEF6",
+          "profile_text_color": "333333",
+          "profile_use_background_image": true,
+          "has_extended_profile": false,
+          "default_profile": true,
+          "default_profile_image": false,
+          "following": false,
+          "follow_request_sent": false,
+          "notifications": false,
+          "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": true,
+      "quoted_status_id": 1142529249049554950,
+      "quoted_status_id_str": "1142529249049554950",
+      "quoted_status": {
+          "created_at": "Sat Jun 22 20:26:14 +0000 2019",
+          "id": 1142529249049554950,
+          "id_str": "1142529249049554950",
+          "text": "A MicroSFF Collection from O.Westin https://t.co/WF98KYMDet",
+          "truncated": false,
+          "entities": {
+              "hashtags": [],
+              "symbols": [],
+              "user_mentions": [],
+              "urls": [
+                  {
+                      "url": "https://t.co/WF98KYMDet",
+                      "expanded_url": "https://camestrosfelapton.wordpress.com/?p=32270",
+                      "display_url": "camestrosfelapton.wordpress.com/?p=32270",
+                      "indices": [
+                          36,
+                          59
+                      ]
+                  }
+              ]
+          },
+          "source": "<a href=\"http://publicize.wp.com/\" rel=\"nofollow\">WordPress.com</a>",
+          "in_reply_to_status_id": null,
+          "in_reply_to_status_id_str": null,
+          "in_reply_to_user_id": null,
+          "in_reply_to_user_id_str": null,
+          "in_reply_to_screen_name": null,
+          "user": {
+              "id": 3314031146,
+              "id_str": "3314031146",
+              "name": "Camestros Felapton",
+              "screen_name": "CamestrosF",
+              "location": "",
+              "description": "syllogistic cosplay, \nhim, he, they",
+              "url": "http://t.co/BMTQfsxta5",
+              "entities": {
+                  "url": {
+                      "urls": [
+                          {
+                              "url": "http://t.co/BMTQfsxta5",
+                              "expanded_url": "http://camestrosfelapton.wordpress.com",
+                              "display_url": "camestrosfelapton.wordpress.com",
+                              "indices": [
+                                  0,
+                                  22
+                              ]
+                          }
+                      ]
+                  },
+                  "description": {
+                      "urls": []
+                  }
+              },
+              "protected": false,
+              "followers_count": 496,
+              "friends_count": 200,
+              "listed_count": 24,
+              "created_at": "Thu Aug 13 05:08:33 +0000 2015",
+              "favourites_count": 5141,
+              "utc_offset": null,
+              "time_zone": null,
+              "geo_enabled": false,
+              "verified": false,
+              "statuses_count": 7251,
+              "lang": null,
+              "contributors_enabled": false,
+              "is_translator": false,
+              "is_translation_enabled": false,
+              "profile_background_color": "C0DEED",
+              "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+              "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+              "profile_background_tile": false,
+              "profile_image_url": "http://pbs.twimg.com/profile_images/631694356605308928/Oyt_YibY_normal.png",
+              "profile_image_url_https": "https://pbs.twimg.com/profile_images/631694356605308928/Oyt_YibY_normal.png",
+              "profile_banner_url": "https://pbs.twimg.com/profile_banners/3314031146/1439443041",
+              "profile_link_color": "1DA1F2",
+              "profile_sidebar_border_color": "C0DEED",
+              "profile_sidebar_fill_color": "DDEEF6",
+              "profile_text_color": "333333",
+              "profile_use_background_image": true,
+              "has_extended_profile": true,
+              "default_profile": true,
+              "default_profile_image": false,
+              "following": false,
+              "follow_request_sent": false,
+              "notifications": false,
+              "translator_type": "none"
+          },
+          "geo": null,
+          "coordinates": null,
+          "place": null,
+          "contributors": null,
+          "is_quote_status": false,
+          "retweet_count": 5,
+          "favorite_count": 9,
+          "favorited": false,
+          "retweeted": false,
+          "possibly_sensitive": false,
+          "lang": "en"
+      },
+      "retweet_count": 9,
+      "favorite_count": 22,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+  },
+  {
+      "created_at": "Mon Jun 24 20:31:19 +0000 2019",
+      "id": 1143255304219570176,
+      "id_str": "1143255304219570176",
+      "text": "\"What is this meter?\"\n\"My power charge level,\" the robot said.\n\"And this one?\"\n\"My memory storage capacity.\"\n\"And t… https://t.co/5Y4AKGOmaW",
+      "truncated": true,
+      "entities": {
+          "hashtags": [],
+          "symbols": [],
+          "user_mentions": [],
+          "urls": [
+              {
+                  "url": "https://t.co/5Y4AKGOmaW",
+                  "expanded_url": "https://twitter.com/i/web/status/1143255304219570176",
+                  "display_url": "twitter.com/i/web/status/1…",
+                  "indices": [
+                      117,
+                      140
+                  ]
+              }
+          ]
+      },
+      "source": "<a href=\"https://www.hootsuite.com\" rel=\"nofollow\">Hootsuite Inc.</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+          "id": 1376608884,
+          "id_str": "1376608884",
+          "name": "Micro SF/F stories",
+          "screen_name": "MicroSFF",
+          "location": "England",
+          "description": "Very short science fiction/fantasy stories by O. Westin. Please RT any you like.\nBook: https://t.co/utkBev93up\nPatreon: https://t.co/P5OoD3Q842",
+          "url": "http://t.co/uDjyUq5q7X",
+          "entities": {
+              "url": {
+                  "urls": [
+                      {
+                          "url": "http://t.co/uDjyUq5q7X",
+                          "expanded_url": "http://microsff.tumblr.com/",
+                          "display_url": "microsff.tumblr.com",
+                          "indices": [
+                              0,
+                              22
+                          ]
+                      }
+                  ]
+              },
+              "description": {
+                  "urls": [
+                      {
+                          "url": "https://t.co/utkBev93up",
+                          "expanded_url": "http://microsff.tumblr.com/book",
+                          "display_url": "microsff.tumblr.com/book",
+                          "indices": [
+                              87,
+                              110
+                          ]
+                      },
+                      {
+                          "url": "https://t.co/P5OoD3Q842",
+                          "expanded_url": "https://www.patreon.com/microsff",
+                          "display_url": "patreon.com/microsff",
+                          "indices": [
+                              120,
+                              143
+                          ]
+                      }
+                  ]
+              }
+          },
+          "protected": false,
+          "followers_count": 75206,
+          "friends_count": 105,
+          "listed_count": 1161,
+          "created_at": "Wed Apr 24 09:42:38 +0000 2013",
+          "favourites_count": 260,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": false,
+          "verified": false,
+          "statuses_count": 8878,
+          "lang": null,
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "C0DEED",
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/522520775002058752/ZD7KK74G_normal.jpeg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/522520775002058752/ZD7KK74G_normal.jpeg",
+          "profile_link_color": "1DA1F2",
+          "profile_sidebar_border_color": "C0DEED",
+          "profile_sidebar_fill_color": "DDEEF6",
+          "profile_text_color": "333333",
+          "profile_use_background_image": true,
+          "has_extended_profile": false,
+          "default_profile": true,
+          "default_profile_image": false,
+          "following": false,
+          "follow_request_sent": false,
+          "notifications": false,
+          "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 256,
+      "favorite_count": 1145,
+      "favorited": false,
+      "retweeted": false,
+      "lang": "en"
+  }
+]
