@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import {useEffect} from "react"
 
 function Header({ darkMode, onDarkModeToggle }) {
@@ -13,11 +12,6 @@ function Header({ darkMode, onDarkModeToggle }) {
     //         clearInterval(intervalId)
     //     }
     // }, [])
-=======
-function Header({ darkMode, onDarkModeToggle }) {
-    const handleModeClick = () => onDarkModeToggle()
-    const buttonText = darkMode ? "Light Mode" : "Dark Mode"
->>>>>>> main
 
     return (
         <header>
