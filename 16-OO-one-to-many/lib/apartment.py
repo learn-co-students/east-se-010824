@@ -1,25 +1,3 @@
-class Building:
-    all = []
-
-    def __init__(self, name):
-        self.name = name
-        Building.all.append(self)
-
-    def apartments(self):
-        # apts = []
-        # for apartment in Apartment.all:
-        #     if apartment.building == self:
-        #         apts.append(apartment)
-
-        # return apts
-        return [apartment for apartment in Apartment.all if apartment.building == self]
-
-    def add_apartment(self, number, floor):
-        return Apartment(number, floor, self)
-
-    def __repr__(self):
-        return f'<Building name="{self.name}">'
-
 
 class Apartment:
     all = []
@@ -46,6 +24,7 @@ class Apartment:
 
     @building.setter
     def building(self, building_instance):
+        from lib.building import Building
         # if type(building_instance) == Building:
         if isinstance(building_instance, Building):
             self._building = building_instance
@@ -54,12 +33,3 @@ class Apartment:
 
     def __repr__(self):
         return f'<Apartment num={self.number} floor={self.floor} building_name="{self.building.name}">'
-
-# b1 = Building("The Hampton")
-# b2 = Building("Dunster")
-# a1 = Apartment(100, 1, b1)
-# a2 = Apartment(20, 2, b2)
-# b1.add_apartment(101, 1)
-
-
-# 2. refactor classes into own files
