@@ -1,0 +1,29 @@
+- Drop table
+    - drop a db table if it exist
+        - drop_table class method
+            - Order class
+- Create table
+    - create a db table if it doesn't exist
+        - create_table class method
+            - Order class
+- READ 
+    - read all rows in the db (map row to object)
+        - all class method
+            - Order class
+    - read one row in the db by id
+        - find_by_id class method
+            - Customer class
+        - find_by_name class method
+            - Coffee class
+- CREATE 
+    - create a row in the db (map object to row)
+        - save instance method
+            - Order class
+- UPDATE 
+    - update a row in the db
+        - update instance method
+            - Customer class
+- DESTROY 
+    - delete a row in the db
+        - delete instance method
+            - Order class
