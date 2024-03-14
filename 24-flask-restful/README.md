@@ -1,10 +1,10 @@
 # SQLAlchemy Relationships
 ## Objectives
-- [ ] many to many relationship
+- [X] many to many relationship
+- [ ] add created_at and updated_at columns with the current datetime
 
 # Flask RESTful
 ## Objectives
-- [ ] add created_at and updated_at columns with the current datetime
 - [ ] Review REST convention
 - [ ] Define routes with Flask RESTful
 
