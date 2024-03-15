@@ -1,4 +1,5 @@
 from flask import request, make_response
+from sqlalchemy.exc import IntegrityError
 from config import app, db, api
 from models import Post, Comment, User
 from flask_restful import Resource
@@ -39,3 +40,20 @@ class PostById(Resource):
 
 api.add_resource(PostById, '/posts/<int:id>')
 
+class Users(Resource):
+    def post(self):
+        request_body = request.json
+        try:
+            user = User(username=request_body["username"], age=request_body['age'])
+
+            db.session.add(user)
+            db.session.commit()
+        except IntegrityError as i_error:
+            if 'username' in str(i_error):
+                return make_response({'error': 'username must be unique'}, 422)
+        except ValueError as v_error:
+            return make_response({'error': str(v_error)}, 422)
+        return make_response(user.to_dict(), 201)
+
+
+api.add_resource(Users, '/users')

@@ -13,8 +13,8 @@ if __name__ == '__main__':
         db.session.add_all([p1, p2])
         db.session.commit()
 
-        u1 = User(username="emiley")
-        u2 = User(username="apollo")
+        u1 = User(username="emiley", age=29)
+        u2 = User(username="apollo", age=12)
 
         db.session.add_all([u1, u2])
         db.session.commit()

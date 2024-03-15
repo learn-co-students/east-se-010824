@@ -1,6 +1,7 @@
 from config import db
 from sqlalchemy_serializer import SerializerMixin
 from sqlalchemy.ext.associationproxy import association_proxy
+from sqlalchemy.orm import validates
 
 class User(db.Model, SerializerMixin):
     __tablename__ = 'users'
@@ -8,12 +9,24 @@ class User(db.Model, SerializerMixin):
     serialize_rules = ('-comments.user',)
 
     id = db.Column(db.Integer, primary_key=True)
-    username = db.Column(db.String)
+    username = db.Column(db.String, unique=True, nullable=False)
+    age = db.Column(db.Integer)
     created_at = db.Column(db.DateTime, server_default=db.func.now())
     updated_at = db.Column(db.DateTime, onupdate=db.func.now())
 
     comments = db.relationship('Comment', back_populates='user')
     commented_posts = association_proxy('comments', 'post')
+
+    __table_args__ = (
+        db.CheckConstraint('age > 12'),
+    )
+
+    @validates('username')
+    def validate_username(self, key, new_username):
+        if len(new_username) <= 2:
+            raise ValueError('Username must be greater than 2 characters')
+        return new_username
+
 
 class Post(db.Model, SerializerMixin):
     __tablename__ = 'posts'
