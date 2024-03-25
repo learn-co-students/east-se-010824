@@ -1,10 +1,12 @@
 import { useState } from "react"
+import { Outlet } from "react-router-dom"
 
 import Header from "./components/Header"
-import ProjectContainer from "./components/ProjectContainer"
+import Auth from "./components/Auth"
 
 function App() {
-  const [ darkMode, setDarkMode ] = useState(true)
+  const [ darkMode, setDarkMode ] = useState(false)
+  const [loggedInUser, setLoggedInUser] = useState(null)
 
   function onDarkModeToggle() {
     setDarkMode(!darkMode)
@@ -14,7 +16,11 @@ function App() {
 
   return <div className={className}>
     <Header darkMode={darkMode} onDarkModeToggle={onDarkModeToggle}/> 
-    <ProjectContainer />
+    {
+      !!loggedInUser ?
+      <Outlet /> :
+      <Auth setUser={setLoggedInUser} />
+    }
   </div>;
 }
 

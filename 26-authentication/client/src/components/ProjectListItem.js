@@ -1,5 +1,7 @@
+import { Link } from "react-router-dom"
+
 function ProjectListItem({ project }) {
-    const { name, image, about, id, phase, link } = project
+    const { name, image, id } = project
     return (
         <li className="card">
             <figure className="image">
@@ -7,12 +9,7 @@ function ProjectListItem({ project }) {
             </figure>
             <article>
                 <h4>{name}</h4>
-                <p>
-                    {about}
-                </p>
-                <p>
-                   Phase: {phase}
-                </p>
+                <Link to={`/projects/${id}`}>See Details</Link>
             </article>
         </li>
     )

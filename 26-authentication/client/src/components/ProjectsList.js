@@ -1,13 +1,15 @@
 import { useState } from "react"
+import { useOutletContext } from "react-router-dom"
 
 import ProjectListItem from "./ProjectListItem"
 
-function ProjectsList({ projects }) {
+function ProjectsList() {
+    const { projects } = useOutletContext()
     const [ phase, setPhase ] = useState('all')
 
     const filteredProjects = projects.filter((project) => {
         if (phase === 'all') return true
-        return project.phase === parseInt(phase)
+        return project.phase === phase
     })
 
     const renderProjects = filteredProjects.map((project) => (
