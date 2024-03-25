@@ -4,7 +4,7 @@ from config import db, app
 if __name__ == '__main__':
     with app.app_context():
         Project.query.delete()
-        User.query.delete()
+        # User.query.delete()
         projects = [
             {
             "name": "Great Outdoors Guide",
@@ -57,8 +57,8 @@ if __name__ == '__main__':
         db.session.add_all(project_objects)
         db.session.commit()
 
-        u1 = User(username="emiley")
-        u2 = User(username="apollo")
+        # u1 = User(username="emiley")
+        # u2 = User(username="apollo")
 
-        db.session.add_all([u1, u2])
-        db.session.commit()
+        # db.session.add_all([u1, u2])
+        # db.session.commit()

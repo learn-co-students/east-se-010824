@@ -33,7 +33,7 @@ function Auth({ setUser }) {
                 body: JSON.stringify(values)
             }).then((resp) => {
                 if (resp.ok) {
-                    resp.json().then(({ user }) => {
+                    resp.json().then((user) => {
                         setUser(user)
                         // navigate into site
                     })
