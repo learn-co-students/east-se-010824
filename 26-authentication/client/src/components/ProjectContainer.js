@@ -1,7 +1,5 @@
 import { useState, useEffect } from "react"
-
-import ProjectForm from "./ProjectForm"
-import ProjectsList from "./ProjectsList"
+import { Outlet } from "react-router-dom"
 
 function ProjectContainer() {
     const [ projects, setProjects ] = useState([])
@@ -18,10 +16,14 @@ function ProjectContainer() {
         })
     }
 
+    const context = {
+        projects: projects,
+        onAddProject: onAddProject
+    }
+
     return (
         <div>
-            <ProjectForm onAddProject={onAddProject}/>
-            <ProjectsList projects={projects} />
+            <Outlet context={context} />
         </div>
     )
 }
