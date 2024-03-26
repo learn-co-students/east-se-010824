@@ -1,4 +1,4 @@
-from flask import request, make_response
+from flask import request, make_response, session
 from config import app, db, api
 from models import Project, User
 from flask_restful import Resource
@@ -46,6 +46,7 @@ class Users(Resource):
             db.session.add(user)
             db.session.commit()
 
+            session['user_id'] = user.id
             response = make_response(user.to_dict(), 201)
         except:
             return make_response({'error': "something went wrong"}, 400)
@@ -62,6 +63,22 @@ def login():
         return make_response({'error': 'invalid username'}, 404)
 
     if user.authenticate(data['password']):
+        session['user_id'] = user.id
         return make_response(user.to_dict(), 200)
     else:
         return make_response({'error': 'invalid username or password'}, 401)
+
+
+@app.route('/authorized', methods=['GET'])
+def authorized():
+    user_id = session.get('user_id')
+    if user_id:
+        user = User.query.filter_by(id=user_id).first()
+        return make_response(user.to_dict())
+    else:
+        return make_response({'error': 'Unauthorized'}, 401)
+
+@app.route('/logout', methods=['DELETE'])
+def logout():
+    session['user_id'] = None
+    return make_response({}, 204)

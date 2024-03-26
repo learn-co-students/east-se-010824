@@ -53,44 +53,38 @@ function Auth({ setUser }) {
         <Container maxWidth='sm'>
             {/* { Object.keys(formik.errors).map((key) => <li>{formik.errors[key]}</li>) } */}
             <button onClick={toggleSignup}>{signup ? 'Login instead!' : 'Register for an account'}</button>
-            <form onSubmit={formik.handleSubmit}>
-              
-                <TextField 
-                    id="username" 
-                    label="Username" 
-                    variant="outlined" 
-                    error={!!formik.errors.username}
-                    helperText={formik.errors.username}
-                    required
-                    value={formik.values.username}
-                    onChange={formik.handleChange}
-                />
-                <Box>
-                    <TextField 
-                        id="password"
-                        label="password"
-                        type="password"
-                        variant="outlined" 
-                        error={!!formik.errors.password}
-                        helperText={formik.errors.password}
-                        required
-                        value={formik.values.password}
-                        onChange={formik.handleChange}
-                    />
-                </Box>
-                <Box>
-                    {signup && <TextField 
-                        id="passwordConfirmation"
-                        label="passwordConfirmation"
-                        type="password"
-                        variant="outlined" 
-                        error={!!formik.errors.passwordConfirmation}
-                        helperText={formik.errors.passwordConfirmation}
-                        required
+            <form className='form' onSubmit={formik.handleSubmit}>
+            <label htmlFor='username'>Username:</label>
+            <input 
+                id="username" 
+                name="username" 
+                placeholder='Username'
+                required
+                value={formik.values.username}
+                onChange={formik.handleChange}
+            />
+            
+            <label htmlFor='password'>Password:</label>
+            <input 
+                id='password' 
+                name='password' 
+                type='password' 
+                placeholder='Password' 
+                value={formik.values.password}
+                onChange={formik.handleChange}
+            />
+            
+                {signup && <>
+                    <label htmlFor='phase'>Phase:</label>
+                    <input 
+                        id="passwordConfirmation" 
+                        name="passwordConfirmation"
+                        type='password' 
+                        placeholder="Password Confirmation" 
                         value={formik.values.passwordConfirmation}
                         onChange={formik.handleChange}
-                    />}
-                </Box>
+                    />
+                </>}
                 <button type="submit">Submit</button>
             </form>
         </Container>

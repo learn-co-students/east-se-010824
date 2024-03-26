@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import { Outlet } from "react-router-dom"
 
 import Header from "./components/Header"
@@ -12,10 +12,23 @@ function App() {
     setDarkMode(!darkMode)
   }
 
+  function logoutUser() {
+    setLoggedInUser(null)
+  }
+
+  useEffect(() => {
+    fetch('/authorized')
+      .then(resp => {
+        if (resp.ok) {
+          resp.json().then((user) => setLoggedInUser(user))
+        }
+      })
+  }, [])
+
   const className = darkMode ? 'App' : 'App light'
 
   return <div className={className}>
-    <Header darkMode={darkMode} onDarkModeToggle={onDarkModeToggle}/> 
+    <Header darkMode={darkMode} onDarkModeToggle={onDarkModeToggle} logoutUser={logoutUser}/> 
     {
       !!loggedInUser ?
       <Outlet /> :

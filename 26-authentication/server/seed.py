@@ -4,7 +4,7 @@ from config import db, app
 if __name__ == '__main__':
     with app.app_context():
         Project.query.delete()
-        # User.query.delete()
+        User.query.delete()
         projects = [
             {
             "name": "Great Outdoors Guide",

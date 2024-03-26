@@ -30,4 +30,4 @@ bcrypt = Bcrypt(app)
 
 # Set up:
 # generate a secrete key `python -c 'import os; print(os.urandom(16))'`
-# app.secret_key = 'secret key for session'
+app.secret_key = b'-\xd6\x16\n\xba\xb0~\xdd\x98\x88$v@\x87\xe7\xfd'
